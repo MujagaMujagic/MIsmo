@@ -1,0 +1,2 @@
+# Moja aplikacija
+Inicijalni commit
