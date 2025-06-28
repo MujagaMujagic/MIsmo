@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="JobNest.Views.SearchPage"
+             xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Pretraga"
+             BackgroundColor="White">
+
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="20">
+
+            <!-- Header -->
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+                <Button x:Name="BackButton" 
+                        Grid.Column="0"
+                        Text="← Nazad"
+                        BackgroundColor="Transparent"
+                        TextColor="#2E7D32"
+                        HorizontalOptions="Start"
+                        Clicked="OnBackClicked" />
+
+                <Button x:Name="FilterButton"
+                        Grid.Column="1" 
+                        Text="⚙️"
+                        BackgroundColor="Transparent"
+                        TextColor="#2E7D32"
+                        HorizontalOptions="End"
+                        Clicked="OnFilterClicked" />
+            </Grid>
+
+            <!-- Search Bar -->
+            <Frame BackgroundColor="#F5F5F5" 
+                   CornerRadius="25"
+                   Padding="15"
+                   HasShadow="False">
+                <Entry x:Name="SearchEntry"
+                       Placeholder="Unesite poziciju ili kompaniju"
+                       BackgroundColor="Transparent"
+                       TextChanged="OnSearchTextChanged" />
+            </Frame>
+
+            <!-- Filter Chips -->
+            <StackLayout x:Name="FilterChipsContainer" 
+                         Orientation="Horizontal" 
+                         Spacing="10"
+                         IsVisible="False">
+                <Frame x:Name="LocationChip"
+                       BackgroundColor="#2E7D32"
+                       CornerRadius="20"
+                       Padding="10,5"
+                       HasShadow="False">
+                    <StackLayout Orientation="Horizontal" Spacing="5">
+                        <Label x:Name="LocationChipText" 
+                               Text="Lokacija" 
+                               TextColor="White" 
+                               FontSize="12" />
+                        <Button Text="×" 
+                                BackgroundColor="Transparent"
+                                TextColor="White"
+                                FontSize="12"
+                                Padding="0"
+                                Clicked="OnRemoveLocationFilter" />
+                    </StackLayout>
+                </Frame>
+
+                <Frame x:Name="SalaryChip"
+                       BackgroundColor="#2E7D32"
+                       CornerRadius="20"
+                       Padding="10,5"
+                       HasShadow="False">
+                    <StackLayout Orientation="Horizontal" Spacing="5">
+                        <Label x:Name="SalaryChipText" 
+                               Text="Plata" 
+                               TextColor="White" 
+                               FontSize="12" />
+                        <Button Text="×" 
+                                BackgroundColor="Transparent"
+                                TextColor="White"
+                                FontSize="12"
+                                Padding="0"
+                                Clicked="OnRemoveSalaryFilter" />
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+
+            <!-- Results Header -->
+            <StackLayout Orientation="Horizontal" Spacing="10">
+                <Label Text="Rezultati" 
+                       FontSize="18" 
+                       FontAttributes="Bold"
+                       TextColor="#2E7D32"
+                       VerticalOptions="Center" />
+                <Label x:Name="ResultsCountLabel" 
+                       Text="0 poslova pronađeno"
+                       FontSize="14"
+                       TextColor="Gray"
+                       VerticalOptions="Center" />
+            </StackLayout>
+
+            <!-- Jobs List -->
+            <CollectionView x:Name="JobsCollectionView" 
+                            ItemsSource="{Binding FilteredJobs}"
+                            SelectionMode="Single"
+                            SelectionChanged="OnJobSelected">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Padding="0,10">
+                            <Frame BackgroundColor="White"
+                                   CornerRadius="15"
+                                   Padding="15"
+                                   HasShadow="True">
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="OnJobCardTapped" />
+                                </Frame.GestureRecognizers>
+                                <StackLayout Spacing="10">
+
+                                    <!-- Company Info -->
+                                    <StackLayout Orientation="Horizontal" Spacing="10">
+                                        <Frame BackgroundColor="#E3F2FD"
+                                               CornerRadius="25"
+                                               Padding="10"
+                                               HasShadow="False"
+                                               WidthRequest="50"
+                                               HeightRequest="50">
+                                            <Label Text="🏢" 
+                                                   FontSize="20"
+                                                   HorizontalOptions="Center"
+                                                   VerticalOptions="Center" />
+                                        </Frame>
+
+                                        <StackLayout Spacing="5" VerticalOptions="Center">
+                                            <Label Text="{Binding CompanyName}"
+                                                   FontSize="12"
+                                                   TextColor="Gray" />
+                                            <Label Text="{Binding Title}"
+                                                   FontSize="16"
+                                                   FontAttributes="Bold"
+                                                   TextColor="#2E7D32" />
+                                        </StackLayout>
+                                    </StackLayout>
+
+                                    <!-- Job Details -->
+                                    <StackLayout Orientation="Horizontal" Spacing="15">
+                                        <StackLayout Orientation="Horizontal" Spacing="5">
+                                            <Label Text="💰" FontSize="12" />
+                                            <Label Text="{Binding Salary}" 
+                                                   FontSize="12" 
+                                                   TextColor="Gray" />
+                                        </StackLayout>
+
+                                        <StackLayout Orientation="Horizontal" Spacing="5">
+                                            <Label Text="📍" FontSize="12" />
+                                            <Label Text="{Binding Location}" 
+                                                   FontSize="12" 
+                                                   TextColor="Gray" />
+                                        </StackLayout>
+                                    </StackLayout>
+
+                                </StackLayout>
+                            </Frame>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

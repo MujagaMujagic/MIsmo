@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36121.58 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobNest", "JobNest\JobNest.csproj", "{D16CF2EB-23A7-4F55-8FE0-79DA424D8C58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D16CF2EB-23A7-4F55-8FE0-79DA424D8C58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D16CF2EB-23A7-4F55-8FE0-79DA424D8C58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D16CF2EB-23A7-4F55-8FE0-79DA424D8C58}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D16CF2EB-23A7-4F55-8FE0-79DA424D8C58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D16CF2EB-23A7-4F55-8FE0-79DA424D8C58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D16CF2EB-23A7-4F55-8FE0-79DA424D8C58}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A5BF6B9-BBBB-487B-8636-2A98FDE92F71}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="JobNest.Views.OnboardingPage"
+             xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="White">
+
+    <Grid>
+        <StackLayout VerticalOptions="CenterAndExpand" 
+                     HorizontalOptions="CenterAndExpand"
+                     Spacing="30"
+                     Padding="40">
+
+            <!-- Grafika placeholder -->
+            <StackLayout HorizontalOptions="Center" Spacing="10">
+                <Frame BackgroundColor="#1B5E20" 
+                       CornerRadius="60"
+                       WidthRequest="120"
+                       HeightRequest="120"
+                       HorizontalOptions="Center">
+                    <Label Text="📊" 
+                           FontSize="60"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"/>
+                </Frame>
+
+                <!-- Dodajte još nekoliko krugova kao u Figmi -->
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="15">
+                    <Frame BackgroundColor="#4CAF50" 
+                           CornerRadius="20"
+                           WidthRequest="40"
+                           HeightRequest="40"/>
+                    <Frame BackgroundColor="#81C784" 
+                           CornerRadius="15"
+                           WidthRequest="30"
+                           HeightRequest="30"/>
+                </StackLayout>
+            </StackLayout>
+
+            <Label Text="Pronađi svoj posao iz snova"
+                   FontSize="28"
+                   FontAttributes="Bold"
+                   TextColor="Black"
+                   HorizontalOptions="Center"
+                   HorizontalTextAlignment="Center"/>
+
+            <Label Text="Prva prilika je samo korak daleko"
+                   FontSize="16"
+                   TextColor="Gray"
+                   HorizontalOptions="Center"
+                   HorizontalTextAlignment="Center"/>
+
+        </StackLayout>
+
+        <!-- Navigation buttons na dnu -->
+        <StackLayout VerticalOptions="EndAndExpand" 
+                     Orientation="Horizontal" 
+                     HorizontalOptions="CenterAndExpand"
+                     Spacing="20"
+                     Margin="40,0,40,60">
+            
+
+            <Button Text="→"
+                    BackgroundColor="#1B5E20"
+                    TextColor="White"
+                    CornerRadius="25"
+                    WidthRequest="50"
+                    HeightRequest="50"
+                    FontSize="20"
+                    Clicked="OnNextClicked"/>
+        </StackLayout>
+    </Grid>
+</ContentPage>

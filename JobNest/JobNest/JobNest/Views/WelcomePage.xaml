@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="JobNest.Views.WelcomePage"
+             xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="White">
+
+    <ScrollView>
+        <StackLayout Padding="40,60,40,40" Spacing="30">
+
+            <!-- Logo i naslov -->
+            <StackLayout Spacing="20" HorizontalOptions="Center">
+                <Frame BackgroundColor="#1B5E20" 
+                       CornerRadius="40"
+                       WidthRequest="80"
+                       HeightRequest="80"
+                       HorizontalOptions="Center">
+                    <Label Text="📊" 
+                           FontSize="40"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"/>
+                </Frame>
+
+                <Label Text="Pronađi svoj posao iz snova"
+                       FontSize="24"
+                       FontAttributes="Bold"
+                       TextColor="#1B5E20"
+                       HorizontalOptions="Center"
+                       HorizontalTextAlignment="Center"/>
+
+                <Label Text="Prva prilika je samo korak daleko"
+                       FontSize="16"
+                       TextColor="Gray"
+                       HorizontalOptions="Center"
+                       HorizontalTextAlignment="Center"/>
+            </StackLayout>
+
+            <!-- Karakteristike -->
+            <StackLayout Spacing="20" Margin="0,20,0,0">
+
+                <StackLayout Orientation="Horizontal" Spacing="15">
+                    <Frame BackgroundColor="#E8F5E8" 
+                           CornerRadius="25"
+                           WidthRequest="50"
+                           HeightRequest="50"
+                           Padding="0">
+                        <Label Text="👨‍💼" 
+                               FontSize="24"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Center"/>
+                    </Frame>
+                    <StackLayout VerticalOptions="Center" HorizontalOptions="FillAndExpand">
+                        <Label Text="TRAŽITELJI POSLA"
+                               FontSize="12"
+                               FontAttributes="Bold"
+                               TextColor="#1B5E20"/>
+                        <Label Text="Pronađi poslove koje odgovaraju tvojim kandidatima – ostvari svoj put ispred"
+                               FontSize="14"
+                               TextColor="Gray"/>
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal" Spacing="15">
+                    <Frame BackgroundColor="#E8F5E8" 
+                           CornerRadius="25"
+                           WidthRequest="50"
+                           HeightRequest="50"
+                           Padding="0">
+                        <Label Text="🏢" 
+                               FontSize="24"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Center"/>
+                    </Frame>
+                    <StackLayout VerticalOptions="Center" HorizontalOptions="FillAndExpand">
+                        <Label Text="KOMPANIJA"
+                               FontSize="12"
+                               FontAttributes="Bold"
+                               TextColor="#1B5E20"/>
+                        <Label Text="Naći te prije pronosišemo tvog idealnog kandidata ovdje"
+                               FontSize="14"
+                               TextColor="Gray"/>
+                    </StackLayout>
+                </StackLayout>
+
+            </StackLayout>
+
+            <!-- Dugmad -->
+            <StackLayout Spacing="15" Margin="0,40,0,0">
+                <Button Text="PRIJAVI SE"
+                        BackgroundColor="#1B5E20"
+                        TextColor="White"
+                        CornerRadius="25"
+                        HeightRequest="50"
+                        FontSize="16"
+                        FontAttributes="Bold"
+                        Clicked="OnLoginClicked"/>
+
+                <Button Text="NAPRAVI RAČUN"
+                        BackgroundColor="Transparent"
+                        TextColor="#1B5E20"
+                        BorderColor="#1B5E20"
+                        BorderWidth="2"
+                        CornerRadius="25"
+                        HeightRequest="50"
+                        FontSize="16"
+                        FontAttributes="Bold"
+                        Clicked="OnRegisterClicked"/>
+            </StackLayout>
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

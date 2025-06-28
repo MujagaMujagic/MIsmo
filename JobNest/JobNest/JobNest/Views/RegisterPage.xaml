@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="JobNest.Views.RegisterPage"
+             xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             NavigationPage.HasNavigationBar="True"
+             Title="Registracija">
+
+    <ScrollView>
+        <StackLayout Padding="40" Spacing="25">
+
+            <!-- Header -->
+            <StackLayout Spacing="10" Margin="0,20,0,0">
+                <Label x:Name="RoleLabel"
+                       Text="Kandidat" 
+                       FontSize="24"
+                       FontAttributes="Bold"
+                       TextColor="#1B5E20"
+                       HorizontalOptions="Start"/>
+
+                <Label Text="Napravi račun"
+                       FontSize="32"
+                       FontAttributes="Bold"
+                       TextColor="Black"
+                       HorizontalOptions="Start"/>
+
+                <Label Text="Kreiraj novi nalog za pristup aplikaciji"
+                       FontSize="14"
+                       TextColor="Gray"
+                       HorizontalOptions="Start"/>
+            </StackLayout>
+
+            <!-- First Name Input -->
+            <StackLayout Spacing="8">
+                <Label Text="Ime"
+                       FontSize="14"
+                       TextColor="Gray"/>
+                <Entry x:Name="FirstNameEntry"
+                       Placeholder="Unesite vaše ime"
+                       FontSize="16"
+                       BackgroundColor="White"
+                       TextColor="Black"
+                       PlaceholderColor="Gray"/>
+                <BoxView HeightRequest="1" BackgroundColor="LightGray"/>
+            </StackLayout>
+
+            <!-- Last Name Input -->
+            <StackLayout Spacing="8">
+                <Label Text="Prezime"
+                       FontSize="14"
+                       TextColor="Gray"/>
+                <Entry x:Name="LastNameEntry"
+                       Placeholder="Unesite vaše prezime"
+                       FontSize="16"
+                       BackgroundColor="White"
+                       TextColor="Black"
+                       PlaceholderColor="Gray"/>
+                <BoxView HeightRequest="1" BackgroundColor="LightGray"/>
+            </StackLayout>
+
+            <!-- Email Input -->
+            <StackLayout Spacing="8">
+                <Label Text="Email"
+                       FontSize="14"
+                       TextColor="Gray"/>
+                <Entry x:Name="EmailEntry"
+                       Placeholder="you@example.com"
+                       Keyboard="Email"
+                       FontSize="16"
+                       BackgroundColor="White"
+                       TextColor="Black"
+                       PlaceholderColor="Gray"/>
+                <BoxView HeightRequest="1" BackgroundColor="LightGray"/>
+            </StackLayout>
+
+            <!-- Password Input -->
+            <StackLayout Spacing="8">
+                <Label Text="Lozinka"
+                       FontSize="14"
+                       TextColor="Gray"/>
+                <Grid ColumnDefinitions="*,Auto">
+                    <Entry x:Name="PasswordEntry"
+                           Grid.Column="0"
+                           Placeholder="Min. 8 karaktera, veliko/malo slovo, broj, specijalni znak"
+                           IsPassword="True"
+                           FontSize="16"
+                           BackgroundColor="White"
+                           TextColor="Black"
+                           PlaceholderColor="Gray"/>
+                    <Button x:Name="ShowPasswordButton"
+                            Grid.Column="1"
+                            Text="👁"
+                            BackgroundColor="Transparent"
+                            TextColor="Gray"
+                            FontSize="18"
+                            Clicked="OnShowPasswordClicked"/>
+                </Grid>
+                <BoxView HeightRequest="1" BackgroundColor="LightGray"/>
+            </StackLayout>
+
+            <!-- Confirm Password Input -->
+            <StackLayout Spacing="8">
+                <Label Text="Potvrdi lozinku"
+                       FontSize="14"
+                       TextColor="Gray"/>
+                <Entry x:Name="ConfirmPasswordEntry"
+                       Placeholder="Ponovite lozinku"
+                       IsPassword="True"
+                       FontSize="16"
+                       BackgroundColor="White"
+                       TextColor="Black"
+                       PlaceholderColor="Gray"/>
+                <BoxView HeightRequest="1" BackgroundColor="LightGray"/>
+            </StackLayout>
+
+            <!-- Company specific fields (only for company users) -->
+            <StackLayout x:Name="CompanyFields" IsVisible="False" Spacing="20">
+
+                <StackLayout Spacing="8">
+                    <Label Text="Naziv kompanije"
+                           FontSize="14"
+                           TextColor="Gray"/>
+                    <Entry x:Name="CompanyNameEntry"
+                           Placeholder="Unesite naziv vaše kompanije"
+                           FontSize="16"
+                           BackgroundColor="White"
+                           TextColor="Black"
+                           PlaceholderColor="Gray"/>
+                    <BoxView HeightRequest="1" BackgroundColor="LightGray"/>
+                </StackLayout>
+
+                <StackLayout Spacing="8">
+                    <Label Text="Website (opciono)"
+                           FontSize="14"
+                           TextColor="Gray"/>
+                    <Entry x:Name="WebsiteEntry"
+                           Placeholder="www.vasakompanija.com"
+                           Keyboard="Url"
+                           FontSize="16"
+                           BackgroundColor="White"
+                           TextColor="Black"
+                           PlaceholderColor="Gray"/>
+                    <BoxView HeightRequest="1" BackgroundColor="LightGray"/>
+                </StackLayout>
+
+                <StackLayout Spacing="8">
+                    <Label Text="Opis kompanije"
+                           FontSize="14"
+                           TextColor="Gray"/>
+                    <Editor x:Name="CompanyDescriptionEditor"
+                            Placeholder="Kratko opišite vašu kompaniju..."
+                            FontSize="16"
+                            HeightRequest="100"
+                            BackgroundColor="White"
+                            TextColor="Black"
+                            PlaceholderColor="Gray"/>
+                    <BoxView HeightRequest="1" BackgroundColor="LightGray"/>
+                </StackLayout>
+
+            </StackLayout>
+
+            <!-- Terms and Conditions -->
+            <StackLayout Orientation="Horizontal" Spacing="10" Margin="0,20,0,0">
+                <CheckBox x:Name="TermsCheckBox" Color="#1B5E20"/>
+                <Label Text="Slažem se sa uslovima korištenja i politikom privatnosti"
+                       FontSize="14"
+                       TextColor="Gray"
+                       VerticalOptions="Center"
+                       FlexLayout.Grow="1"/>
+            </StackLayout>
+
+            <!-- Register Button -->
+            <Button Text="NAPRAVI RAČUN"
+                    BackgroundColor="#1B5E20"
+                    TextColor="White"
+                    CornerRadius="25"
+                    HeightRequest="50"
+                    FontSize="16"
+                    FontAttributes="Bold"
+                    Margin="0,20,0,0"
+                    Clicked="OnRegisterClicked"/>
+
+            <!-- Login Link -->
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="5" Margin="0,20,0,0">
+                <Label Text="Već imaš račun?"
+                       FontSize="14"
+                       TextColor="Gray"/>
+                <Label Text="Prijavi se ovdje!"
+                       FontSize="14"
+                       TextColor="#1B5E20"
+                       TextDecorations="Underline">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnLoginClicked"/>
+                    </Label.GestureRecognizers>
+                </Label>
+            </StackLayout>
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

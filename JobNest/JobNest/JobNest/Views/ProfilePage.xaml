@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="JobNest.Views.ProfilePage"
+             xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Profil"
+             BackgroundColor="White">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="80" />
+        </Grid.RowDefinitions>
+
+        <ScrollView Grid.Row="0">
+            <StackLayout Padding="0" Spacing="0">
+
+                <Frame BackgroundColor="#2E7D32" HasShadow="False" Padding="20,40,20,30" CornerRadius="0">
+                    <StackLayout>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+
+                            <Button Grid.Column="0" Text="← Nazad" 
+                                    BackgroundColor="Transparent" 
+                                    TextColor="White" 
+                                    FontSize="16"
+                                    HorizontalOptions="Start"
+                                    Clicked="OnBackClicked" />
+
+                            <Button Grid.Column="1" Text="⋮" 
+                                    BackgroundColor="Transparent" 
+                                    TextColor="White" 
+                                    FontSize="20"
+                                    HorizontalOptions="End" />
+                        </Grid>
+
+                        <Frame BackgroundColor="White" 
+                               WidthRequest="100" 
+                               HeightRequest="100" 
+                               CornerRadius="50" 
+                               HasShadow="True"
+                               HorizontalOptions="Center"
+                               Margin="0,20,0,0">
+                            <Label Text="👤" 
+                                   FontSize="50" 
+                                   HorizontalOptions="Center" 
+                                   VerticalOptions="Center"
+                                   TextColor="#2E7D32" />
+                        </Frame>
+
+                        <Label x:Name="UserNameLabel" 
+                               Text="Ana Anić" 
+                               FontSize="24" 
+                               FontAttributes="Bold" 
+                               TextColor="White" 
+                               HorizontalOptions="Center" 
+                               Margin="0,15,0,0" />
+
+                        <Label Text="Software Developer" 
+                               FontSize="14" 
+                               TextColor="White" 
+                               HorizontalOptions="Center" 
+                               Margin="20,10,20,0" />
+                    </StackLayout>
+                </Frame>
+
+                <StackLayout Padding="20" Spacing="25">
+
+                    <StackLayout Spacing="15">
+
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="40" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+
+                            <Label Grid.Column="0" Text="📞" FontSize="18" VerticalOptions="Center" />
+                            <Label Grid.Column="1" x:Name="PhoneLabel" 
+                                   Text="+387 61 123 456" 
+                                   FontSize="16" 
+                                   VerticalOptions="Center" />
+                        </Grid>
+
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="40" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+
+                            <Label Grid.Column="0" Text="✉️" FontSize="18" VerticalOptions="Center" />
+                            <Label Grid.Column="1" x:Name="EmailLabel" 
+                                   Text="ana.anic@example.com" 
+                                   FontSize="16" 
+                                   VerticalOptions="Center" />
+                        </Grid>
+
+                    </StackLayout>
+
+                    <Frame BackgroundColor="#2E7D32" 
+                           Padding="15" 
+                           CornerRadius="10" 
+                           HasShadow="True">
+                        <StackLayout>
+                            <Label Text="Moj CV" 
+                                   FontSize="18" 
+                                   FontAttributes="Bold" 
+                                   TextColor="White" />
+                            <Label x:Name="CvStatusLabel" 
+                                   Text="CV nije učitan" 
+                                   FontSize="14" 
+                                   TextColor="White" />
+                            <Button Text="Upravljaj CV" 
+                                    BackgroundColor="White" 
+                                    TextColor="#2E7D32" 
+                                    Margin="0,10,0,0"
+                                    Clicked="OnCvMenuClicked" />
+                        </StackLayout>
+                    </Frame>
+
+                    <BoxView HeightRequest="20" BackgroundColor="Transparent" />
+
+                </StackLayout>
+
+            </StackLayout>
+        </ScrollView>
+
+        <Grid Grid.Row="1" BackgroundColor="White">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <StackLayout Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center">
+                <Button Text="🏠" 
+                        BackgroundColor="Transparent" 
+                        TextColor="#666" 
+                        FontSize="20"
+                        Clicked="OnHomeClicked" />
+                <Label Text="Početna" FontSize="12" TextColor="#666" HorizontalOptions="Center" />
+            </StackLayout>
+
+            <StackLayout Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center">
+                <Button Text="🔍" 
+                        BackgroundColor="Transparent" 
+                        TextColor="#666" 
+                        FontSize="20"
+                        Clicked="OnSearchClicked" />
+                <Label Text="Pretraga" FontSize="12" TextColor="#666" HorizontalOptions="Center" />
+            </StackLayout>
+
+            <StackLayout Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center">
+                <Button Text="🔔" 
+                        BackgroundColor="Transparent" 
+                        TextColor="#666" 
+                        FontSize="20"
+                        Clicked="OnNotificationsClicked" />
+                <Label Text="Obavijesti" FontSize="12" TextColor="#666" HorizontalOptions="Center" />
+            </StackLayout>
+
+            <StackLayout Grid.Column="3" HorizontalOptions="Center" VerticalOptions="Center">
+                <Button Text="👤" 
+                        BackgroundColor="Transparent" 
+                        TextColor="#2E7D32" 
+                        FontSize="20" />
+                <Label Text="Profil" FontSize="12" TextColor="#2E7D32" HorizontalOptions="Center" />
+            </StackLayout>
+
+        </Grid>
+    </Grid>
+
+</ContentPage>
