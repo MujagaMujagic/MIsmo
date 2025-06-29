@@ -3,12 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D16CF2EB-23A7-4F55-8FE0-79DA424D8C58}|JobNest\\JobNest.csproj|c:\\users\\windows 10\\desktop\\job\\mismo\\jobnest\\jobnest\\jobnest\\views\\candidatedashboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D16CF2EB-23A7-4F55-8FE0-79DA424D8C58}|JobNest\\JobNest.csproj|solutionrelative:jobnest\\views\\candidatedashboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D16CF2EB-23A7-4F55-8FE0-79DA424D8C58}|JobNest\\JobNest.csproj|c:\\users\\windows 10\\desktop\\job\\mismo\\jobnest\\jobnest\\jobnest\\views\\jobcreationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D16CF2EB-23A7-4F55-8FE0-79DA424D8C58}|JobNest\\JobNest.csproj|solutionrelative:jobnest\\views\\jobcreationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D16CF2EB-23A7-4F55-8FE0-79DA424D8C58}|JobNest\\JobNest.csproj|c:\\users\\windows 10\\desktop\\job\\mismo\\jobnest\\jobnest\\jobnest\\views\\jobcreationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D16CF2EB-23A7-4F55-8FE0-79DA424D8C58}|JobNest\\JobNest.csproj|solutionrelative:jobnest\\views\\jobcreationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D16CF2EB-23A7-4F55-8FE0-79DA424D8C58}|JobNest\\JobNest.csproj|c:\\users\\windows 10\\desktop\\job\\mismo\\jobnest\\jobnest\\jobnest\\views\\jobapplicationspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D16CF2EB-23A7-4F55-8FE0-79DA424D8C58}|JobNest\\JobNest.csproj|solutionrelative:jobnest\\views\\jobapplicationspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D16CF2EB-23A7-4F55-8FE0-79DA424D8C58}|JobNest\\JobNest.csproj|c:\\users\\windows 10\\desktop\\job\\mismo\\jobnest\\jobnest\\jobnest\\views\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D16CF2EB-23A7-4F55-8FE0-79DA424D8C58}|JobNest\\JobNest.csproj|solutionrelative:jobnest\\views\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D16CF2EB-23A7-4F55-8FE0-79DA424D8C58}|JobNest\\JobNest.csproj|c:\\users\\windows 10\\desktop\\job\\mismo\\jobnest\\jobnest\\jobnest\\views\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D16CF2EB-23A7-4F55-8FE0-79DA424D8C58}|JobNest\\JobNest.csproj|solutionrelative:jobnest\\views\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D16CF2EB-23A7-4F55-8FE0-79DA424D8C58}|JobNest\\JobNest.csproj|c:\\users\\windows 10\\desktop\\job\\mismo\\jobnest\\jobnest\\jobnest\\views\\candidatedashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{D16CF2EB-23A7-4F55-8FE0-79DA424D8C58}|JobNest\\JobNest.csproj|solutionrelative:jobnest\\views\\candidatedashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D16CF2EB-23A7-4F55-8FE0-79DA424D8C58}|JobNest\\JobNest.csproj|c:\\users\\windows 10\\desktop\\job\\mismo\\jobnest\\jobnest\\jobnest\\views\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D16CF2EB-23A7-4F55-8FE0-79DA424D8C58}|JobNest\\JobNest.csproj|solutionrelative:jobnest\\views\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D16CF2EB-23A7-4F55-8FE0-79DA424D8C58}|JobNest\\JobNest.csproj|c:\\users\\windows 10\\desktop\\job\\mismo\\jobnest\\jobnest\\jobnest\\views\\simplecompanyprofilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D16CF2EB-23A7-4F55-8FE0-79DA424D8C58}|JobNest\\JobNest.csproj|solutionrelative:jobnest\\views\\simplecompanyprofilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D16CF2EB-23A7-4F55-8FE0-79DA424D8C58}|JobNest\\JobNest.csproj|c:\\users\\windows 10\\desktop\\job\\mismo\\jobnest\\jobnest\\jobnest\\views\\candidatedashboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D16CF2EB-23A7-4F55-8FE0-79DA424D8C58}|JobNest\\JobNest.csproj|solutionrelative:jobnest\\views\\candidatedashboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D16CF2EB-23A7-4F55-8FE0-79DA424D8C58}|JobNest\\JobNest.csproj|c:\\users\\windows 10\\desktop\\job\\mismo\\jobnest\\jobnest\\jobnest\\jobnest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -17,18 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D16CF2EB-23A7-4F55-8FE0-79DA424D8C58}|JobNest\\JobNest.csproj|c:\\users\\windows 10\\desktop\\job\\mismo\\jobnest\\jobnest\\jobnest\\views\\simplecompanyprofilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D16CF2EB-23A7-4F55-8FE0-79DA424D8C58}|JobNest\\JobNest.csproj|solutionrelative:jobnest\\views\\simplecompanyprofilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D16CF2EB-23A7-4F55-8FE0-79DA424D8C58}|JobNest\\JobNest.csproj|c:\\users\\windows 10\\desktop\\job\\mismo\\jobnest\\jobnest\\jobnest\\views\\simplecompanyprofilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D16CF2EB-23A7-4F55-8FE0-79DA424D8C58}|JobNest\\JobNest.csproj|solutionrelative:jobnest\\views\\simplecompanyprofilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D16CF2EB-23A7-4F55-8FE0-79DA424D8C58}|JobNest\\JobNest.csproj|c:\\users\\windows 10\\desktop\\job\\mismo\\jobnest\\jobnest\\jobnest\\views\\jobcreationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D16CF2EB-23A7-4F55-8FE0-79DA424D8C58}|JobNest\\JobNest.csproj|solutionrelative:jobnest\\views\\jobcreationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D16CF2EB-23A7-4F55-8FE0-79DA424D8C58}|JobNest\\JobNest.csproj|c:\\users\\windows 10\\desktop\\job\\mismo\\jobnest\\jobnest\\jobnest\\views\\jobcreationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D16CF2EB-23A7-4F55-8FE0-79DA424D8C58}|JobNest\\JobNest.csproj|solutionrelative:jobnest\\views\\jobcreationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D16CF2EB-23A7-4F55-8FE0-79DA424D8C58}|JobNest\\JobNest.csproj|c:\\users\\windows 10\\desktop\\job\\mismo\\jobnest\\jobnest\\jobnest\\views\\companydashboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -68,14 +84,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D16CF2EB-23A7-4F55-8FE0-79DA424D8C58}|JobNest\\JobNest.csproj|c:\\users\\windows 10\\desktop\\job\\mismo\\jobnest\\jobnest\\jobnest\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{D16CF2EB-23A7-4F55-8FE0-79DA424D8C58}|JobNest\\JobNest.csproj|solutionrelative:jobnest\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D16CF2EB-23A7-4F55-8FE0-79DA424D8C58}|JobNest\\JobNest.csproj|c:\\users\\windows 10\\desktop\\job\\mismo\\jobnest\\jobnest\\jobnest\\views\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D16CF2EB-23A7-4F55-8FE0-79DA424D8C58}|JobNest\\JobNest.csproj|solutionrelative:jobnest\\views\\registerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D16CF2EB-23A7-4F55-8FE0-79DA424D8C58}|JobNest\\JobNest.csproj|c:\\users\\windows 10\\desktop\\job\\mismo\\jobnest\\jobnest\\jobnest\\views\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D16CF2EB-23A7-4F55-8FE0-79DA424D8C58}|JobNest\\JobNest.csproj|solutionrelative:jobnest\\views\\registerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D16CF2EB-23A7-4F55-8FE0-79DA424D8C58}|JobNest\\JobNest.csproj|c:\\users\\windows 10\\desktop\\job\\mismo\\jobnest\\jobnest\\jobnest\\models\\jobrecommendation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -120,10 +128,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D16CF2EB-23A7-4F55-8FE0-79DA424D8C58}|JobNest\\JobNest.csproj|c:\\users\\windows 10\\desktop\\job\\mismo\\jobnest\\jobnest\\jobnest\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D16CF2EB-23A7-4F55-8FE0-79DA424D8C58}|JobNest\\JobNest.csproj|solutionrelative:jobnest\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D16CF2EB-23A7-4F55-8FE0-79DA424D8C58}|JobNest\\JobNest.csproj|c:\\users\\windows 10\\desktop\\job\\mismo\\jobnest\\jobnest\\jobnest\\views\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{D16CF2EB-23A7-4F55-8FE0-79DA424D8C58}|JobNest\\JobNest.csproj|solutionrelative:jobnest\\views\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D16CF2EB-23A7-4F55-8FE0-79DA424D8C58}|JobNest\\JobNest.csproj|c:\\users\\windows 10\\desktop\\job\\mismo\\jobnest\\jobnest\\jobnest\\views\\searchpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -208,46 +212,129 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CandidateDashboardPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\CandidateDashboardPage.xaml",
+              "RelativeDocumentMoniker": "JobNest\\Views\\CandidateDashboardPage.xaml",
+              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\CandidateDashboardPage.xaml",
+              "RelativeToolTip": "JobNest\\Views\\CandidateDashboardPage.xaml",
+              "ViewState": "AgIAAOAAAAAAAAAAAAAAAPIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-26T21:43:46.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegisterPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\RegisterPage.xaml",
+              "RelativeDocumentMoniker": "JobNest\\Views\\RegisterPage.xaml",
+              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\RegisterPage.xaml",
+              "RelativeToolTip": "JobNest\\Views\\RegisterPage.xaml",
+              "ViewState": "AgIAAJsAAAAAAAAAAADwv5EAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-26T01:19:31.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JobCreationPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\JobCreationPage.xaml",
+              "RelativeDocumentMoniker": "JobNest\\Views\\JobCreationPage.xaml",
+              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\JobCreationPage.xaml",
+              "RelativeToolTip": "JobNest\\Views\\JobCreationPage.xaml",
+              "ViewState": "AgIAAK0AAAAAAAAAAAAYwNEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-28T08:40:23.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JobCreationPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\JobCreationPage.xaml.cs",
+              "RelativeDocumentMoniker": "JobNest\\Views\\JobCreationPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\JobCreationPage.xaml.cs",
+              "RelativeToolTip": "JobNest\\Views\\JobCreationPage.xaml.cs",
+              "ViewState": "AgIAACEBAAAAAAAAAAAUwC0BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T08:40:46.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "JobNest",
+              "Title": "JobApplicationsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\JobApplicationsPage.xaml",
+              "RelativeDocumentMoniker": "JobNest\\Views\\JobApplicationsPage.xaml",
+              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\JobApplicationsPage.xaml",
+              "RelativeToolTip": "JobNest\\Views\\JobApplicationsPage.xaml",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-29T14:46:07.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProfilePage.xaml",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\ProfilePage.xaml",
+              "RelativeDocumentMoniker": "JobNest\\Views\\ProfilePage.xaml",
+              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\ProfilePage.xaml",
+              "RelativeToolTip": "JobNest\\Views\\ProfilePage.xaml",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAUwIMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-27T15:09:23.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "JobNest.csproj",
               "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\JobNest.csproj",
               "RelativeDocumentMoniker": "JobNest\\JobNest.csproj",
               "ToolTip": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\JobNest.csproj",
               "RelativeToolTip": "JobNest\\JobNest.csproj",
               "ViewState": "AgIAAHEAAAAAAAAAAAAgwHkAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-29T11:36:21.954Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-29T11:36:21.954Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CandidateDashboardPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\CandidateDashboardPage.xaml",
-              "RelativeDocumentMoniker": "JobNest\\Views\\CandidateDashboardPage.xaml",
-              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\CandidateDashboardPage.xaml",
-              "RelativeToolTip": "JobNest\\Views\\CandidateDashboardPage.xaml",
-              "ViewState": "AgIAAAgBAAAAAAAAAAAnwA8BAAA7AAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "RegisterPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\RegisterPage.xaml.cs",
+              "RelativeDocumentMoniker": "JobNest\\Views\\RegisterPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\RegisterPage.xaml.cs",
+              "RelativeToolTip": "JobNest\\Views\\RegisterPage.xaml.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAAwG0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T01:22:51.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SimpleCompanyProfilePage.xaml",
+              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\SimpleCompanyProfilePage.xaml",
+              "RelativeDocumentMoniker": "JobNest\\Views\\SimpleCompanyProfilePage.xaml",
+              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\SimpleCompanyProfilePage.xaml",
+              "RelativeToolTip": "JobNest\\Views\\SimpleCompanyProfilePage.xaml",
+              "ViewState": "AgIAANoAAAAAAAAAAAAnwAgBAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-26T21:43:46.754Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-28T16:12:57.845Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "CandidateDashboardPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\CandidateDashboardPage.xaml.cs",
               "RelativeDocumentMoniker": "JobNest\\Views\\CandidateDashboardPage.xaml.cs",
               "ToolTip": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\CandidateDashboardPage.xaml.cs",
               "RelativeToolTip": "JobNest\\Views\\CandidateDashboardPage.xaml.cs",
-              "ViewState": "AgIAAHMAAAAAAAAAAAAUwJEAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAAAIgAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T21:44:42.496Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-26T21:44:42.496Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "SimpleCompanyProfilePage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\SimpleCompanyProfilePage.xaml.cs",
               "RelativeDocumentMoniker": "JobNest\\Views\\SimpleCompanyProfilePage.xaml.cs",
@@ -255,51 +342,11 @@
               "RelativeToolTip": "JobNest\\Views\\SimpleCompanyProfilePage.xaml.cs",
               "ViewState": "AgIAAE0BAAAAAAAAAAAiwFsBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T16:15:01.493Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-28T16:15:01.493Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SimpleCompanyProfilePage.xaml",
-              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\SimpleCompanyProfilePage.xaml",
-              "RelativeDocumentMoniker": "JobNest\\Views\\SimpleCompanyProfilePage.xaml",
-              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\SimpleCompanyProfilePage.xaml",
-              "RelativeToolTip": "JobNest\\Views\\SimpleCompanyProfilePage.xaml",
-              "ViewState": "AgIAAAEBAAAAAAAAAAAnwAgBAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-28T16:12:57.845Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "JobCreationPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\JobCreationPage.xaml.cs",
-              "RelativeDocumentMoniker": "JobNest\\Views\\JobCreationPage.xaml.cs",
-              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\JobCreationPage.xaml.cs",
-              "RelativeToolTip": "JobNest\\Views\\JobCreationPage.xaml.cs",
-              "ViewState": "AgIAAB4BAAAAAAAAAAAiwCwBAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-28T08:40:46.694Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "JobCreationPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\JobCreationPage.xaml",
-              "RelativeDocumentMoniker": "JobNest\\Views\\JobCreationPage.xaml",
-              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\JobCreationPage.xaml",
-              "RelativeToolTip": "JobNest\\Views\\JobCreationPage.xaml",
-              "ViewState": "AgIAAMUAAAAAAAAAAAAYwNEAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-28T08:40:23.12Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "CompanyDashboardPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\CompanyDashboardPage.xaml.cs",
               "RelativeDocumentMoniker": "JobNest\\Views\\CompanyDashboardPage.xaml.cs",
@@ -307,12 +354,11 @@
               "RelativeToolTip": "JobNest\\Views\\CompanyDashboardPage.xaml.cs",
               "ViewState": "AgIAANAAAAAAAAAAAAAiwN4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T21:46:40.085Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-26T21:46:40.085Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "CompanyProfileEditPage.xaml",
               "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\CompanyProfileEditPage.xaml",
               "RelativeDocumentMoniker": "JobNest\\Views\\CompanyProfileEditPage.xaml",
@@ -320,12 +366,11 @@
               "RelativeToolTip": "JobNest\\Views\\CompanyProfileEditPage.xaml",
               "ViewState": "AgIAAOQAAAAAAAAAAAAAABIBAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-29T00:32:34.797Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-29T00:32:34.797Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "CompanyProfileEditPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\CompanyProfileEditPage.xaml.cs",
               "RelativeDocumentMoniker": "JobNest\\Views\\CompanyProfileEditPage.xaml.cs",
@@ -333,12 +378,11 @@
               "RelativeToolTip": "JobNest\\Views\\CompanyProfileEditPage.xaml.cs",
               "ViewState": "AgIAAEkAAAAAAAAAAAAwwNEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-29T00:33:02.456Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-29T00:33:02.456Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "CompanyDashboardPage.xaml",
               "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\CompanyDashboardPage.xaml",
               "RelativeDocumentMoniker": "JobNest\\Views\\CompanyDashboardPage.xaml",
@@ -346,12 +390,11 @@
               "RelativeToolTip": "JobNest\\Views\\CompanyDashboardPage.xaml",
               "ViewState": "AgIAANwAAAAAAAAAAADwv+4AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-28T09:22:12.094Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-28T09:22:12.094Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "Xamarin.Android.Common.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.154\\tools\\Xamarin.Android.Common.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.154\\tools\\Xamarin.Android.Common.targets",
@@ -359,12 +402,11 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.154\\tools\\Xamarin.Android.Common.targets",
               "ViewState": "AgIAAAUKAAAAAAAAAAAYwB0KAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-06-29T07:40:49.035Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-29T07:40:49.035Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "DatabaseService.cs",
               "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Services\\DatabaseService.cs",
               "RelativeDocumentMoniker": "JobNest\\Services\\DatabaseService.cs",
@@ -372,12 +414,11 @@
               "RelativeToolTip": "JobNest\\Services\\DatabaseService.cs",
               "ViewState": "AgIAAH8BAAAAAAAAAAAcwJEBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T23:06:20.986Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T23:06:20.986Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "CompanyProfile.cs",
               "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Models\\CompanyProfile.cs",
               "RelativeDocumentMoniker": "JobNest\\Models\\CompanyProfile.cs",
@@ -385,12 +426,11 @@
               "RelativeToolTip": "JobNest\\Models\\CompanyProfile.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAAwDAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T22:57:15.572Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-25T22:57:15.572Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "LoginPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\LoginPage.xaml.cs",
               "RelativeDocumentMoniker": "JobNest\\Views\\LoginPage.xaml.cs",
@@ -402,7 +442,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Models\\User.cs",
               "RelativeDocumentMoniker": "JobNest\\Models\\User.cs",
@@ -414,7 +454,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "LoginPage.xaml",
               "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\LoginPage.xaml",
               "RelativeDocumentMoniker": "JobNest\\Views\\LoginPage.xaml",
@@ -426,19 +466,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "RegisterPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\RegisterPage.xaml.cs",
-              "RelativeDocumentMoniker": "JobNest\\Views\\RegisterPage.xaml.cs",
-              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\RegisterPage.xaml.cs",
-              "RelativeToolTip": "JobNest\\Views\\RegisterPage.xaml.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAAwG0AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T01:22:51.5Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "JobRecommendation.cs",
               "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Models\\JobRecommendation.cs",
               "RelativeDocumentMoniker": "JobNest\\Models\\JobRecommendation.cs",
@@ -450,7 +478,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "JobPost.cs",
               "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Models\\JobPost.cs",
               "RelativeDocumentMoniker": "JobNest\\Models\\JobPost.cs",
@@ -462,19 +490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "RegisterPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\RegisterPage.xaml",
-              "RelativeDocumentMoniker": "JobNest\\Views\\RegisterPage.xaml",
-              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\RegisterPage.xaml",
-              "RelativeToolTip": "JobNest\\Views\\RegisterPage.xaml",
-              "ViewState": "AgIAALYAAAAAAAAAAADwv9UAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-26T01:19:31.473Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "SimpleJobDetailPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\SimpleJobDetailPage.xaml.cs",
               "RelativeDocumentMoniker": "JobNest\\Views\\SimpleJobDetailPage.xaml.cs",
@@ -486,7 +502,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "SimpleJobDetailPage.xaml",
               "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\SimpleJobDetailPage.xaml",
               "RelativeDocumentMoniker": "JobNest\\Views\\SimpleJobDetailPage.xaml",
@@ -498,7 +514,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "SearchPage.xaml",
               "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\SearchPage.xaml",
               "RelativeDocumentMoniker": "JobNest\\Views\\SearchPage.xaml",
@@ -506,12 +522,11 @@
               "RelativeToolTip": "JobNest\\Views\\SearchPage.xaml",
               "ViewState": "AgIAAI0AAAAAAAAAAADwv6wAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-27T08:42:49.811Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T08:42:49.811Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "JobNest\\Data\\AppDbContext.cs",
@@ -523,7 +538,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "CurrentUserService.cs",
               "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Services\\CurrentUserService.cs",
               "RelativeDocumentMoniker": "JobNest\\Services\\CurrentUserService.cs",
@@ -535,7 +550,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "JobApplicationsPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\JobApplicationsPage.xaml.cs",
               "RelativeDocumentMoniker": "JobNest\\Views\\JobApplicationsPage.xaml.cs",
@@ -547,7 +562,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "JobApplication.cs",
               "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Models\\JobApplication.cs",
               "RelativeDocumentMoniker": "JobNest\\Models\\JobApplication.cs",
@@ -559,7 +574,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "MauiProgram.cs",
               "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\MauiProgram.cs",
               "RelativeDocumentMoniker": "JobNest\\MauiProgram.cs",
@@ -571,7 +586,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "ProfilePage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\ProfilePage.xaml.cs",
               "RelativeDocumentMoniker": "JobNest\\Views\\ProfilePage.xaml.cs",
@@ -583,19 +598,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "ProfilePage.xaml",
-              "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\ProfilePage.xaml",
-              "RelativeDocumentMoniker": "JobNest\\Views\\ProfilePage.xaml",
-              "ToolTip": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\ProfilePage.xaml",
-              "RelativeToolTip": "JobNest\\Views\\ProfilePage.xaml",
-              "ViewState": "AgIAAJsAAAAAAAAAAAAUwK4AAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-27T15:09:23.021Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "SearchPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\SearchPage.xaml.cs",
               "RelativeDocumentMoniker": "JobNest\\Views\\SearchPage.xaml.cs",
@@ -607,7 +610,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "SplashPage.xaml",
               "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\SplashPage.xaml",
               "RelativeDocumentMoniker": "JobNest\\Views\\SplashPage.xaml",
@@ -619,7 +622,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "CandidateProfile.cs",
               "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Models\\CandidateProfile.cs",
               "RelativeDocumentMoniker": "JobNest\\Models\\CandidateProfile.cs",
@@ -631,7 +634,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "ServiceHelper.cs",
               "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Helpers\\ServiceHelper.cs",
               "RelativeDocumentMoniker": "JobNest\\Helpers\\ServiceHelper.cs",
@@ -643,7 +646,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\App.xaml",
               "RelativeDocumentMoniker": "JobNest\\App.xaml",
@@ -655,7 +658,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "SplashPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\SplashPage.xaml.cs",
               "RelativeDocumentMoniker": "JobNest\\Views\\SplashPage.xaml.cs",
@@ -667,7 +670,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\App.xaml.cs",
               "RelativeDocumentMoniker": "JobNest\\App.xaml.cs",
@@ -679,7 +682,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "CandidateSkill.cs",
               "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Models\\CandidateSkill.cs",
               "RelativeDocumentMoniker": "JobNest\\Models\\CandidateSkill.cs",
@@ -691,7 +694,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "Skill.cs",
               "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Models\\Skill.cs",
               "RelativeDocumentMoniker": "JobNest\\Models\\Skill.cs",
@@ -703,7 +706,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Models\\Category.cs",
               "RelativeDocumentMoniker": "JobNest\\Models\\Category.cs",
@@ -715,7 +718,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "UserTypeSelectionPage.xaml",
               "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\UserTypeSelectionPage.xaml",
               "RelativeDocumentMoniker": "JobNest\\Views\\UserTypeSelectionPage.xaml",
@@ -727,7 +730,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "OnboardingPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\OnboardingPage.xaml.cs",
               "RelativeDocumentMoniker": "JobNest\\Views\\OnboardingPage.xaml.cs",
@@ -739,7 +742,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "OnboardingPage.xaml",
               "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\OnboardingPage.xaml",
               "RelativeDocumentMoniker": "JobNest\\Views\\OnboardingPage.xaml",
@@ -751,7 +754,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "WelcomePage.xaml",
               "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\WelcomePage.xaml",
               "RelativeDocumentMoniker": "JobNest\\Views\\WelcomePage.xaml",
@@ -763,7 +766,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "AppShell.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\AppShell.xaml.cs",
               "RelativeDocumentMoniker": "JobNest\\AppShell.xaml.cs",
@@ -775,7 +778,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "WelcomePage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\Views\\WelcomePage.xaml.cs",
               "RelativeDocumentMoniker": "JobNest\\Views\\WelcomePage.xaml.cs",
@@ -787,7 +790,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "AppShell.xaml",
               "DocumentMoniker": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\AppShell.xaml",
               "RelativeDocumentMoniker": "JobNest\\AppShell.xaml",
@@ -799,7 +802,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "ReadMe.txt",
               "DocumentMoniker": "C:\\Users\\Windows 10\\.nuget\\packages\\communitytoolkit.maui\\7.0.1\\ReadMe.txt",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\.nuget\\packages\\communitytoolkit.maui\\7.0.1\\ReadMe.txt",

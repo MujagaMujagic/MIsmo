@@ -236,45 +236,9 @@
             </StackLayout>
         </ScrollView>
 
-        <!-- Bottom Navigation -->
-        <!-- BOTTOM NAVIGATION BAR -->
-        <Grid Grid.Row="1" 
-      BackgroundColor="White" 
-      HeightRequest="60" 
-      Padding="0,5,0,5">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
-
-            <!-- Početna -->
-            <StackLayout Grid.Column="0" Spacing="2">
-                <StackLayout.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="OnHomeClicked"/>
-                </StackLayout.GestureRecognizers>
-                <Label Text="🏠" FontSize="20" HorizontalOptions="Center"/>
-                <Label Text="Početna" FontSize="10" TextColor="Gray" HorizontalOptions="Center"/>
-            </StackLayout>
-
-            <!-- Kandidati -->
-            <StackLayout Grid.Column="1" Spacing="2">
-                <StackLayout.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="OnCandidatesClicked"/>
-                </StackLayout.GestureRecognizers>
-                <Label Text="👥" FontSize="20" HorizontalOptions="Center"/>
-                <Label Text="Kandidati" FontSize="10" TextColor="Gray" HorizontalOptions="Center"/>
-            </StackLayout>
-
-            <!-- Kompanija -->
-            <StackLayout Grid.Column="2" Spacing="2">
-                <StackLayout.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="OnCompanyClicked"/>
-                </StackLayout.GestureRecognizers>
-                <Label Text="🏢" FontSize="20" HorizontalOptions="Center"/>
-                <Label Text="Kompanija" FontSize="10" TextColor="Gray" HorizontalOptions="Center"/>
-            </StackLayout>
-        </Grid>
+        
+       
 
     </Grid>
+    
 </ContentPage>

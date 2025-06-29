@@ -143,33 +143,7 @@
                     <BoxView HeightRequest="1" BackgroundColor="LightGray"/>
                 </StackLayout>
 
-                <StackLayout Spacing="8">
-                    <Label Text="Website (opciono)"
-                           FontSize="14"
-                           TextColor="Gray"/>
-                    <Entry x:Name="WebsiteEntry"
-                           Placeholder="www.vasakompanija.com"
-                           Keyboard="Url"
-                           FontSize="16"
-                           BackgroundColor="White"
-                           TextColor="Black"
-                           PlaceholderColor="Gray"/>
-                    <BoxView HeightRequest="1" BackgroundColor="LightGray"/>
-                </StackLayout>
-
-                <StackLayout Spacing="8">
-                    <Label Text="Opis kompanije"
-                           FontSize="14"
-                           TextColor="Gray"/>
-                    <Editor x:Name="CompanyDescriptionEditor"
-                            Placeholder="Kratko opišite vašu kompaniju..."
-                            FontSize="16"
-                            HeightRequest="100"
-                            BackgroundColor="White"
-                            TextColor="Black"
-                            PlaceholderColor="Gray"/>
-                    <BoxView HeightRequest="1" BackgroundColor="LightGray"/>
-                </StackLayout>
+                
 
             </StackLayout>
 

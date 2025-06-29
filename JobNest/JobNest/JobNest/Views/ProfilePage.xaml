@@ -131,7 +131,6 @@
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
 
             <StackLayout Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center">
@@ -152,16 +151,8 @@
                 <Label Text="Pretraga" FontSize="12" TextColor="#666" HorizontalOptions="Center" />
             </StackLayout>
 
-            <StackLayout Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center">
-                <Button Text="🔔" 
-                        BackgroundColor="Transparent" 
-                        TextColor="#666" 
-                        FontSize="20"
-                        Clicked="OnNotificationsClicked" />
-                <Label Text="Obavijesti" FontSize="12" TextColor="#666" HorizontalOptions="Center" />
-            </StackLayout>
 
-            <StackLayout Grid.Column="3" HorizontalOptions="Center" VerticalOptions="Center">
+            <StackLayout Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center">
                 <Button Text="👤" 
                         BackgroundColor="Transparent" 
                         TextColor="#2E7D32" 

@@ -170,42 +170,40 @@
         </ScrollView>
 
         <!-- Bottom Navigation - 3 IKONE -->
-        <!-- BOTTOM NAVIGATION BAR -->
-        <Grid Grid.Row="1" 
-      BackgroundColor="White" 
-      HeightRequest="60" 
-      Padding="0,5,0,5">
+        <Grid Grid.Row="1" BackgroundColor="White" 
+              HeightRequest="80" 
+              Padding="10,15">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
-            <!-- Početna -->
-            <StackLayout Grid.Column="0" Spacing="2">
+            <!-- POČETNA -->
+            <StackLayout Grid.Column="0" Spacing="5">
                 <StackLayout.GestureRecognizers>
                     <TapGestureRecognizer Tapped="OnHomeClicked"/>
                 </StackLayout.GestureRecognizers>
-                <Label Text="🏠" FontSize="20" HorizontalOptions="Center"/>
-                <Label Text="Početna" FontSize="10" TextColor="Gray" HorizontalOptions="Center"/>
+                <Label Text="🏠" FontSize="24" HorizontalOptions="Center" TextColor="Gray"/>
+                <Label Text="Početna" FontSize="12" HorizontalOptions="Center" TextColor="Gray"/>
             </StackLayout>
 
-            <!-- Kandidati -->
-            <StackLayout Grid.Column="1" Spacing="2">
+            <!-- KANDIDATI -->
+            <StackLayout Grid.Column="1" Spacing="5">
                 <StackLayout.GestureRecognizers>
                     <TapGestureRecognizer Tapped="OnCandidatesClicked"/>
                 </StackLayout.GestureRecognizers>
-                <Label Text="👥" FontSize="20" HorizontalOptions="Center"/>
-                <Label Text="Kandidati" FontSize="10" TextColor="Gray" HorizontalOptions="Center"/>
+                <Label Text="👥" FontSize="24" HorizontalOptions="Center" TextColor="Gray"/>
+                <Label Text="Kandidati" FontSize="12" HorizontalOptions="Center" TextColor="Gray"/>
             </StackLayout>
 
-            <!-- Kompanija -->
-            <StackLayout Grid.Column="2" Spacing="2">
+            <!-- KOMPANIJA -->
+            <StackLayout Grid.Column="2" Spacing="5">
                 <StackLayout.GestureRecognizers>
                     <TapGestureRecognizer Tapped="OnCompanyClicked"/>
                 </StackLayout.GestureRecognizers>
-                <Label Text="🏢" FontSize="20" HorizontalOptions="Center"/>
-                <Label Text="Kompanija" FontSize="10" TextColor="Gray" HorizontalOptions="Center"/>
+                <Label Text="🏢" FontSize="24" HorizontalOptions="Center" TextColor="Gray"/>
+                <Label Text="Kompanija" FontSize="12" HorizontalOptions="Center" TextColor="Gray"/>
             </StackLayout>
         </Grid>
     </Grid>
