@@ -253,8 +253,6 @@
                 <Label Text="Početna" FontSize="10" TextColor="Gray" HorizontalOptions="Center"/>
             </StackLayout>
 
-          
-
             <!-- Kandidati -->
             <StackLayout Grid.Column="1" Spacing="2">
                 <StackLayout.GestureRecognizers>

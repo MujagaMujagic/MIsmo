@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JobNest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+54bb1e9d277e535a2e734d17d5239daf307ffa0b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+b86d6e8cb914d0b92baf7ed6c7e7056c2aed1239")]
 [assembly: System.Reflection.AssemblyProductAttribute("JobNest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JobNest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
