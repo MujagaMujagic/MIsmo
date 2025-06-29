@@ -25,7 +25,7 @@ public class DatabaseService
         await SeedTestDataAsync();
     }
 
-    public async Task<User> CreateUserAsync(string email, string password, UserRole role, string firstName = "", string lastName = "", string companyName = "")
+    public async Task<User> CreateUserAsync(string email, string password, UserRole role, string firstName = "", string lastName = "", string companyName = "", string phoneNumber = "")
     {
         // Provjeri da li email već postoji
         var existingUser = await _context.Users.FirstOrDefaultAsync(u => u.Email == email);
@@ -39,6 +39,7 @@ public class DatabaseService
         {
             Name = !string.IsNullOrEmpty(companyName) ? companyName : $"{firstName} {lastName}".Trim(),
             Email = email,
+            Phone = phoneNumber,
             PasswordHash = HashPassword(password),
             Role = role,
             IsActive = true,

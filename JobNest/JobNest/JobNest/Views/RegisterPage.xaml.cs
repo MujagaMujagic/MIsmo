@@ -63,6 +63,12 @@ public partial class RegisterPage : ContentPage
             return;
         }
 
+        if (string.IsNullOrEmpty(PhoneEntry.Text))
+        {
+            await DisplayAlert("Greška", "Molimo unesite broj telefona", "OK");
+            return;
+        }
+
         if (string.IsNullOrEmpty(EmailEntry.Text) || !IsValidEmail(EmailEntry.Text))
         {
             await DisplayAlert("Greška", "Molimo unesite valjan email", "OK");
@@ -96,20 +102,19 @@ public partial class RegisterPage : ContentPage
 
         try
         {
-            
             // Kreiranje korisnika u bazi
             string firstName = FirstNameEntry.Text;
             string lastName = LastNameEntry.Text;
             string companyName = _selectedRole == UserRole.Company ? CompanyNameEntry.Text : "";
 
-            
             var user = await _databaseService.CreateUserAsync(
                 EmailEntry.Text,
                 PasswordEntry.Text,
                 _selectedRole,
                 firstName,
                 lastName,
-                companyName);
+                companyName,
+                PhoneEntry.Text);
 
             string fullName = $"{firstName} {lastName}";
             string roleText = _selectedRole == UserRole.Candidate ? "kandidat" : "kompanija";
@@ -120,7 +125,7 @@ public partial class RegisterPage : ContentPage
         }
         catch (Exception ex)
         {
-            await DisplayAlert("Greška", $"Problem sa registracijom: {ex.Message}\n\nStack trace: {ex.StackTrace}", "OK");
+            await DisplayAlert("Greška", $"Problem sa registracijom: {ex.Message}", "OK");
         }
     }
 

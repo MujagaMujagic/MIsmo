@@ -1,6 +1,8 @@
 ﻿using JobNest.Models;
 using JobNest.Services;
 using JobNest.Helpers;
+using System.Collections.ObjectModel;
+using System.Linq;
 
 namespace JobNest.Views;
 
@@ -278,5 +280,23 @@ public partial class JobCreationPage : ContentPage
 
         System.Diagnostics.Debug.WriteLine($"ParseSalary: NEUSPJEŠNO parsiranje '{salaryText}', vraćam 0");
         return 0;
+    }
+    // NAVIGATION BAR METHODS
+    private async void OnHomeClicked(object sender, EventArgs e)
+    {
+        // Vrati se na CompanyDashboard
+        await Navigation.PopToRootAsync();
+    }
+
+    private async void OnCandidatesClicked(object sender, EventArgs e)
+    {
+        // Prikaži sve aplikacije kompanije
+        // ... kod postoji
+    }
+
+    private async void OnCompanyClicked(object sender, EventArgs e)
+    {
+        // Idi na company profil
+        // ... kod postoji
     }
 }

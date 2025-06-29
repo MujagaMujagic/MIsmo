@@ -26,6 +26,8 @@ public class User
     public bool IsActive { get; set; } = true;
 
     public DateTime DateCreated { get; set; } = DateTime.UtcNow;
+
+    // Navigation properties uklonjene za jednostavnost
 }
 
 public enum UserRole

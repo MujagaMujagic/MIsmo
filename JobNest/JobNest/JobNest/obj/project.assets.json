@@ -61940,11 +61940,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Windows 10\\Desktop\\JobNest\\JobNest\\JobNest\\JobNest.csproj",
+      "projectUniqueName": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\JobNest.csproj",
       "projectName": "JobNest",
-      "projectPath": "C:\\Users\\Windows 10\\Desktop\\JobNest\\JobNest\\JobNest\\JobNest.csproj",
+      "projectPath": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\JobNest.csproj",
       "packagesPath": "C:\\Users\\Windows 10\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Windows 10\\Desktop\\JobNest\\JobNest\\JobNest\\obj\\",
+      "outputPath": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

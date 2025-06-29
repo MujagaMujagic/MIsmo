@@ -42,6 +42,9 @@
                        FontSize="24" 
                        HorizontalOptions="Center" 
                        VerticalOptions="Center"/>
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnCompanyProfileClicked"/>
+                </Frame.GestureRecognizers>
             </Frame>
         </Grid>
 
@@ -223,19 +226,22 @@
                 <Label Text="Početna" FontSize="12" HorizontalOptions="Center" TextColor="#1B5E20"/>
             </StackLayout>
 
-            <StackLayout Grid.Column="1" Spacing="5">
-                <Label Text="📋" FontSize="20" HorizontalOptions="Center" TextColor="Gray"/>
-                <Label Text="Oglasi" FontSize="12" HorizontalOptions="Center" TextColor="Gray"/>
-            </StackLayout>
+            
 
-            <StackLayout Grid.Column="2" Spacing="5">
+            <StackLayout Grid.Column="1" Spacing="5">
+                <StackLayout.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnCandidatesClicked"/>
+                </StackLayout.GestureRecognizers>
                 <Label Text="👥" FontSize="20" HorizontalOptions="Center" TextColor="Gray"/>
                 <Label Text="Kandidati" FontSize="12" HorizontalOptions="Center" TextColor="Gray"/>
             </StackLayout>
 
-            <StackLayout Grid.Column="3" Spacing="5">
-                <Label Text="⚙️" FontSize="20" HorizontalOptions="Center" TextColor="Gray"/>
-                <Label Text="Postavke" FontSize="12" HorizontalOptions="Center" TextColor="Gray"/>
+            <StackLayout Grid.Column="2" Spacing="5">
+                <StackLayout.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnCompanyClicked"/>
+                </StackLayout.GestureRecognizers>
+                <Label Text="🏢" FontSize="20" HorizontalOptions="Center" TextColor="Gray"/>
+                <Label Text="Kompanija" FontSize="12" HorizontalOptions="Center" TextColor="Gray"/>
             </StackLayout>
         </Grid>
 

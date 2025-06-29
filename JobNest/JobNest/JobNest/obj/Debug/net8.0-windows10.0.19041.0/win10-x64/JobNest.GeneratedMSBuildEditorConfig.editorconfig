@@ -8,7 +8,7 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = JobNest
-build_property.ProjectDir = C:\Users\Windows 10\Desktop\Job\JobNest\JobNest\JobNest\
+build_property.ProjectDir = C:\Users\Windows 10\Desktop\Job\MIsmo\JobNest\JobNest\JobNest\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.CsWinRTAotOptimizerEnabled = true
@@ -22,115 +22,121 @@ build_property.CsWinRTUseWindowsUIXamlProjections = false
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Windows 10/Desktop/Job/JobNest/JobNest/JobNest/App.xaml]
+[C:/Users/Windows 10/Desktop/Job/MIsmo/JobNest/JobNest/JobNest/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = JobNest.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/Windows 10/Desktop/Job/JobNest/JobNest/JobNest/AppShell.xaml]
+[C:/Users/Windows 10/Desktop/Job/MIsmo/JobNest/JobNest/JobNest/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = JobNest.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/Windows 10/Desktop/Job/JobNest/JobNest/JobNest/MainPage.xaml]
+[C:/Users/Windows 10/Desktop/Job/MIsmo/JobNest/JobNest/JobNest/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = JobNest.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/Windows 10/Desktop/Job/JobNest/JobNest/JobNest/Resources/Styles/Colors.xaml]
+[C:/Users/Windows 10/Desktop/Job/MIsmo/JobNest/JobNest/JobNest/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = JobNest.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/Windows 10/Desktop/Job/JobNest/JobNest/JobNest/Resources/Styles/Styles.xaml]
+[C:/Users/Windows 10/Desktop/Job/MIsmo/JobNest/JobNest/JobNest/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = JobNest.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/Windows 10/Desktop/Job/JobNest/JobNest/JobNest/Views/CandidateDashboardPage.xaml]
+[C:/Users/Windows 10/Desktop/Job/MIsmo/JobNest/JobNest/JobNest/Views/CandidateDashboardPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = JobNest.Views.CandidateDashboardPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\CandidateDashboardPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\CandidateDashboardPage.xaml
 
-[C:/Users/Windows 10/Desktop/Job/JobNest/JobNest/JobNest/Views/CompanyDashboardPage.xaml]
+[C:/Users/Windows 10/Desktop/Job/MIsmo/JobNest/JobNest/JobNest/Views/CompanyDashboardPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = JobNest.Views.CompanyDashboardPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\CompanyDashboardPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\CompanyDashboardPage.xaml
 
-[C:/Users/Windows 10/Desktop/Job/JobNest/JobNest/JobNest/Views/JobApplicationsPage.xaml]
+[C:/Users/Windows 10/Desktop/Job/MIsmo/JobNest/JobNest/JobNest/Views/CompanyProfileEditPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = JobNest.Views.CompanyProfileEditPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CompanyProfileEditPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CompanyProfileEditPage.xaml
+
+[C:/Users/Windows 10/Desktop/Job/MIsmo/JobNest/JobNest/JobNest/Views/JobApplicationsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = JobNest.Views.JobApplicationsPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\JobApplicationsPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\JobApplicationsPage.xaml
 
-[C:/Users/Windows 10/Desktop/Job/JobNest/JobNest/JobNest/Views/JobCreationPage.xaml]
+[C:/Users/Windows 10/Desktop/Job/MIsmo/JobNest/JobNest/JobNest/Views/JobCreationPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = JobNest.Views.JobCreationPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\JobCreationPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\JobCreationPage.xaml
 
-[C:/Users/Windows 10/Desktop/Job/JobNest/JobNest/JobNest/Views/LoginPage.xaml]
+[C:/Users/Windows 10/Desktop/Job/MIsmo/JobNest/JobNest/JobNest/Views/LoginPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = JobNest.Views.LoginPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\LoginPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\LoginPage.xaml
 
-[C:/Users/Windows 10/Desktop/Job/JobNest/JobNest/JobNest/Views/OnboardingPage.xaml]
+[C:/Users/Windows 10/Desktop/Job/MIsmo/JobNest/JobNest/JobNest/Views/OnboardingPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = JobNest.Views.OnboardingPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\OnboardingPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\OnboardingPage.xaml
 
-[C:/Users/Windows 10/Desktop/Job/JobNest/JobNest/JobNest/Views/ProfilePage.xaml]
+[C:/Users/Windows 10/Desktop/Job/MIsmo/JobNest/JobNest/JobNest/Views/ProfilePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = JobNest.Views.ProfilePage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\ProfilePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\ProfilePage.xaml
 
-[C:/Users/Windows 10/Desktop/Job/JobNest/JobNest/JobNest/Views/RegisterPage.xaml]
+[C:/Users/Windows 10/Desktop/Job/MIsmo/JobNest/JobNest/JobNest/Views/RegisterPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = JobNest.Views.RegisterPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\RegisterPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\RegisterPage.xaml
 
-[C:/Users/Windows 10/Desktop/Job/JobNest/JobNest/JobNest/Views/SearchPage.xaml]
+[C:/Users/Windows 10/Desktop/Job/MIsmo/JobNest/JobNest/JobNest/Views/SearchPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = JobNest.Views.SearchPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\SearchPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\SearchPage.xaml
 
-[C:/Users/Windows 10/Desktop/Job/JobNest/JobNest/JobNest/Views/SimpleCompanyProfilePage.xaml]
+[C:/Users/Windows 10/Desktop/Job/MIsmo/JobNest/JobNest/JobNest/Views/SimpleCompanyProfilePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = JobNest.Views.SimpleCompanyProfilePage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\SimpleCompanyProfilePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\SimpleCompanyProfilePage.xaml
 
-[C:/Users/Windows 10/Desktop/Job/JobNest/JobNest/JobNest/Views/SimpleJobDetailPage.xaml]
+[C:/Users/Windows 10/Desktop/Job/MIsmo/JobNest/JobNest/JobNest/Views/SimpleJobDetailPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = JobNest.Views.SimpleJobDetailPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\SimpleJobDetailPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\SimpleJobDetailPage.xaml
 
-[C:/Users/Windows 10/Desktop/Job/JobNest/JobNest/JobNest/Views/SplashPage.xaml]
+[C:/Users/Windows 10/Desktop/Job/MIsmo/JobNest/JobNest/JobNest/Views/SplashPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = JobNest.Views.SplashPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\SplashPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\SplashPage.xaml
 
-[C:/Users/Windows 10/Desktop/Job/JobNest/JobNest/JobNest/Views/UserTypeSelectionPage.xaml]
+[C:/Users/Windows 10/Desktop/Job/MIsmo/JobNest/JobNest/JobNest/Views/UserTypeSelectionPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = JobNest.Views.UserTypeSelectionPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\UserTypeSelectionPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\UserTypeSelectionPage.xaml
 
-[C:/Users/Windows 10/Desktop/Job/JobNest/JobNest/JobNest/Views/WelcomePage.xaml]
+[C:/Users/Windows 10/Desktop/Job/MIsmo/JobNest/JobNest/JobNest/Views/WelcomePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = JobNest.Views.WelcomePage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\WelcomePage.xaml

@@ -72,7 +72,7 @@ public partial class SimpleJobDetailPage : ContentPage
                     CandidateId = currentUser.Id,
                     CandidateName = currentUser.Name,
                     CandidateEmail = currentUser.Email,
-                    CandidatePhone = currentUser.Phone ?? "Nije uneseno",
+                    CandidatePhone = currentUser.Phone,
                     JobTitle = _jobPost.Title,
                     CompanyName = _jobPost.CompanyName,
                     AppliedDate = DateTime.Now,
@@ -86,6 +86,19 @@ public partial class SimpleJobDetailPage : ContentPage
         catch (Exception ex)
         {
             await DisplayAlert("Greška", $"Problem sa slanjem aplikacije: {ex.Message}", "OK");
+        }
+    }
+
+    private async Task<User?> GetCurrentUser()
+    {
+        try
+        {
+            var testUser = await _databaseService.GetUserByEmailAsync("marko@example.com");
+            return testUser;
+        }
+        catch
+        {
+            return null;
         }
     }
 }

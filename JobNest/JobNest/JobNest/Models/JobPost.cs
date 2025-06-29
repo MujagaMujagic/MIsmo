@@ -22,6 +22,7 @@ public class JobPost
     [MaxLength(100)]
     public string? Salary { get; set; }
 
+    // Nova svojstva za detaljnije job post-ove
     [MaxLength(100)]
     public string? Category { get; set; }
 
@@ -41,11 +42,17 @@ public class JobPost
     [MaxLength(200)]
     public string? Company { get; set; }
 
+    // Alias za UI binding kompatibilnost
+    public string? CompanyName => Company;
+
     public DateTime PostedDate { get; set; } = DateTime.UtcNow;
 
     public DateTime? ExpiryDate { get; set; }
 
     public bool IsActive { get; set; } = true;
 
+    // Za UI prikaz - neće se čuvati u bazi
     public int ApplicationCount { get; set; } = 0;
+
+    // Navigation properties uklonjene za jednostavnost
 }

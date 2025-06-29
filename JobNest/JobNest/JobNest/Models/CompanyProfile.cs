@@ -36,6 +36,9 @@ public class CompanyProfile
     [MaxLength(50)]
     public string? EmployeeCount { get; set; }
 
+    [MaxLength(500)]
+    public string? LogoPath { get; set; }
+
     public decimal? Rating { get; set; }
 
     public DateTime DateCreated { get; set; } = DateTime.UtcNow;

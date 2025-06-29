@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="JobNest.Views.CompanyProfileEditPage"
+             xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Uredi profil kompanije"
+             BackgroundColor="#F5F5F5">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- GLAVNI SADRŽAJ U SCROLLVIEW -->
+        <ScrollView Grid.Row="0">
+            <StackLayout Spacing="0" Padding="0">
+
+                <!-- Header -->
+                <Grid BackgroundColor="#1B5E20" HeightRequest="60">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="60"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="60"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Button Grid.Column="0" 
+                            Text="←" 
+                            BackgroundColor="Transparent" 
+                            TextColor="White" 
+                            FontSize="24"
+                            Clicked="OnBackClicked"/>
+
+                    <Label Grid.Column="1" 
+                           Text="Uredi profil kompanije" 
+                           TextColor="White" 
+                           FontSize="18" 
+                           FontAttributes="Bold" 
+                           HorizontalOptions="Center" 
+                           VerticalOptions="Center"/>
+
+                    <Button Grid.Column="2" 
+                            Text="💾" 
+                            BackgroundColor="Transparent" 
+                            TextColor="White" 
+                            FontSize="20"
+                            Clicked="OnSaveClicked"/>
+                </Grid>
+
+                <!-- Form Content -->
+                <StackLayout Padding="20" Spacing="20">
+
+                    <!-- Company Logo Section -->
+                    <StackLayout Spacing="15">
+                        <Label Text="Logo kompanije" 
+                               FontSize="16" 
+                               FontAttributes="Bold" 
+                               TextColor="#1B5E20"/>
+
+                        <Frame BackgroundColor="#E8F5E8" 
+                               CornerRadius="50" 
+                               WidthRequest="100" 
+                               HeightRequest="100" 
+                               Padding="0" 
+                               HorizontalOptions="Center">
+                            <Label Text="🏢" 
+                                   FontSize="50" 
+                                   HorizontalOptions="Center" 
+                                   VerticalOptions="Center"/>
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OnLogoTapped"/>
+                            </Frame.GestureRecognizers>
+                        </Frame>
+                    </StackLayout>
+
+                    <!-- Company Basic Info -->
+                    <StackLayout Spacing="15">
+
+                        <!-- Company Name -->
+                        <StackLayout Spacing="5">
+                            <Label Text="Naziv kompanije *" 
+                                   FontSize="14" 
+                                   TextColor="#1B5E20" 
+                                   FontAttributes="Bold"/>
+                            <Entry x:Name="CompanyNameEntry" 
+                                   Placeholder="Unesite naziv kompanije"
+                                   BackgroundColor="White" 
+                                   HeightRequest="45"/>
+                        </StackLayout>
+
+                        <!-- Industry -->
+                        <StackLayout Spacing="5">
+                            <Label Text="Industrija *" 
+                                   FontSize="14" 
+                                   TextColor="#1B5E20" 
+                                   FontAttributes="Bold"/>
+                            <Picker x:Name="IndustryPicker" 
+                                    BackgroundColor="White" 
+                                    HeightRequest="45">
+                                <Picker.Items>
+                                    <x:String>IT &amp; Software</x:String>
+                                    <x:String>Marketing &amp; Sales</x:String>
+                                    <x:String>Finansije</x:String>
+                                    <x:String>Zdravstvo</x:String>
+                                    <x:String>Obrazovanje</x:String>
+                                    <x:String>Proizvodnja</x:String>
+                                    <x:String>Trgovina</x:String>
+                                    <x:String>Turizam &amp; Ugostiteljstvo</x:String>
+                                    <x:String>Transport &amp; Logistika</x:String>
+                                    <x:String>Ostalo</x:String>
+                                </Picker.Items>
+                            </Picker>
+                        </StackLayout>
+
+                        <!-- Location -->
+                        <StackLayout Spacing="5">
+                            <Label Text="Lokacija *" 
+                                   FontSize="14" 
+                                   TextColor="#1B5E20" 
+                                   FontAttributes="Bold"/>
+                            <Entry x:Name="LocationEntry" 
+                                   Placeholder="npr. Sarajevo, BiH"
+                                   BackgroundColor="White" 
+                                   HeightRequest="45"/>
+                        </StackLayout>
+
+                        <!-- Employee Count -->
+                        <StackLayout Spacing="5">
+                            <Label Text="Broj zaposlenih" 
+                                   FontSize="14" 
+                                   TextColor="#1B5E20" 
+                                   FontAttributes="Bold"/>
+                            <Picker x:Name="EmployeeCountPicker" 
+                                    BackgroundColor="White" 
+                                    HeightRequest="45">
+                                <Picker.Items>
+                                    <x:String>1-10</x:String>
+                                    <x:String>11-50</x:String>
+                                    <x:String>51-200</x:String>
+                                    <x:String>201-1000</x:String>
+                                    <x:String>1000+</x:String>
+                                </Picker.Items>
+                            </Picker>
+                        </StackLayout>
+
+                    </StackLayout>
+
+                    <!-- Contact Information -->
+                    <StackLayout Spacing="15">
+                        <Label Text="Kontakt informacije" 
+                               FontSize="16" 
+                               FontAttributes="Bold" 
+                               TextColor="#1B5E20"/>
+
+                        <!-- Contact Email -->
+                        <StackLayout Spacing="5">
+                            <Label Text="Kontakt email" 
+                                   FontSize="14" 
+                                   TextColor="#1B5E20" 
+                                   FontAttributes="Bold"/>
+                            <Entry x:Name="ContactEmailEntry" 
+                                   Placeholder="info@kompanija.ba"
+                                   Keyboard="Email"
+                                   BackgroundColor="White" 
+                                   HeightRequest="45"/>
+                        </StackLayout>
+
+                        <!-- Contact Phone -->
+                        <StackLayout Spacing="5">
+                            <Label Text="Kontakt telefon" 
+                                   FontSize="14" 
+                                   TextColor="#1B5E20" 
+                                   FontAttributes="Bold"/>
+                            <Entry x:Name="ContactPhoneEntry" 
+                                   Placeholder="+387 33 123 456"
+                                   Keyboard="Telephone"
+                                   BackgroundColor="White" 
+                                   HeightRequest="45"/>
+                        </StackLayout>
+
+                        <!-- Website -->
+                        <StackLayout Spacing="5">
+                            <Label Text="Website" 
+                                   FontSize="14" 
+                                   TextColor="#1B5E20" 
+                                   FontAttributes="Bold"/>
+                            <Entry x:Name="WebsiteEntry" 
+                                   Placeholder="www.kompanija.ba"
+                                   BackgroundColor="White" 
+                                   HeightRequest="45"/>
+                        </StackLayout>
+
+                    </StackLayout>
+
+                    <!-- Company Description -->
+                    <StackLayout Spacing="15">
+                        <Label Text="O kompaniji" 
+                               FontSize="16" 
+                               FontAttributes="Bold" 
+                               TextColor="#1B5E20"/>
+
+                        <Editor x:Name="DescriptionEditor" 
+                                Placeholder="Unesite kratak opis vaše kompanije, misiju, viziju i vrijednosti..."
+                                BackgroundColor="White" 
+                                HeightRequest="100"/>
+                    </StackLayout>
+
+                    <!-- Action Buttons - dodana margin za navigation -->
+                    <StackLayout Spacing="15" Margin="0,20,0,20">
+
+                        <Button Text="SAČUVAJ PROMJENE"
+                                BackgroundColor="#1B5E20"
+                                TextColor="White"
+                                FontSize="16"
+                                FontAttributes="Bold"
+                                HeightRequest="50"
+                                CornerRadius="25"
+                                Clicked="OnSaveClicked"/>
+
+                        <Button Text="OTKAŽI"
+                                BackgroundColor="Transparent"
+                                TextColor="#1B5E20"
+                                FontSize="14"
+                                HeightRequest="45"
+                                BorderColor="#1B5E20"
+                                BorderWidth="1"
+                                CornerRadius="22"
+                                Clicked="OnBackClicked"/>
+
+                    </StackLayout>
+
+                </StackLayout>
+
+            </StackLayout>
+        </ScrollView>
+
+        <!-- BOTTOM NAVIGATION BAR -->
+        <Grid Grid.Row="1" 
+              BackgroundColor="White" 
+              HeightRequest="60" 
+              Padding="0,5,0,5">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Početna -->
+            <StackLayout Grid.Column="0" Spacing="2">
+                <StackLayout.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnHomeClicked"/>
+                </StackLayout.GestureRecognizers>
+                <Label Text="🏠" FontSize="20" HorizontalOptions="Center"/>
+                <Label Text="Početna" FontSize="10" TextColor="Gray" HorizontalOptions="Center"/>
+            </StackLayout>
+
+          
+
+            <!-- Kandidati -->
+            <StackLayout Grid.Column="1" Spacing="2">
+                <StackLayout.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnCandidatesClicked"/>
+                </StackLayout.GestureRecognizers>
+                <Label Text="👥" FontSize="20" HorizontalOptions="Center"/>
+                <Label Text="Kandidati" FontSize="10" TextColor="Gray" HorizontalOptions="Center"/>
+            </StackLayout>
+
+            <!-- Kompanija -->
+            <StackLayout Grid.Column="2" Spacing="2">
+                <StackLayout.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnCompanyClicked"/>
+                </StackLayout.GestureRecognizers>
+                <Label Text="🏢" FontSize="20" HorizontalOptions="Center"/>
+                <Label Text="Kompanija" FontSize="10" TextColor="Gray" HorizontalOptions="Center"/>
+            </StackLayout>
+        </Grid>
+    </Grid>
+</ContentPage>

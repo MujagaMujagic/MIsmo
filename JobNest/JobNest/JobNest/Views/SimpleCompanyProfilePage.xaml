@@ -2,193 +2,271 @@
 <ContentPage x:Class="JobNest.Views.SimpleCompanyProfilePage"
              xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             Title="Profil kompanije"
+             Title="Detalji o kompaniji"
              BackgroundColor="#F5F5F5">
 
-    <ScrollView>
-        <StackLayout Spacing="0" Padding="0">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
 
-            <!-- Header -->
-            <Grid BackgroundColor="#1B5E20" HeightRequest="60">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="60"/>
-                    <ColumnDefinition Width="*"/>
-                </Grid.ColumnDefinitions>
+        <!-- GLAVNI SADRŽAJ -->
+        <ScrollView Grid.Row="0">
+            <StackLayout Spacing="0" Padding="0">
 
-                <Button Grid.Column="0" 
-                        Text="←" 
-                        BackgroundColor="Transparent" 
-                        TextColor="White" 
-                        FontSize="24"
-                        Clicked="OnBackClicked"/>
+                <!-- Header sa slikom pozadine -->
+                <Grid HeightRequest="200">
+                    <Image Source="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=500" 
+                           Aspect="AspectFill"/>
+                    <Grid BackgroundColor="#80000000">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="60"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
 
-                <Label Grid.Column="1" 
-                       Text="Profil kompanije" 
-                       TextColor="White" 
-                       FontSize="18" 
-                       FontAttributes="Bold" 
-                       HorizontalOptions="Center" 
-                       VerticalOptions="Center"/>
-            </Grid>
+                        <!-- Navigation bar -->
+                        <Grid Grid.Row="0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="60"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="60"/>
+                            </Grid.ColumnDefinitions>
 
-            <!-- Company Info -->
-            <StackLayout BackgroundColor="White" Padding="20" Margin="0,10,0,0">
-                <Grid>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="80"/>
-                        <ColumnDefinition Width="*"/>
-                    </Grid.ColumnDefinitions>
+                            <Button Grid.Column="0" 
+                                    Text="←" 
+                                    BackgroundColor="Transparent" 
+                                    TextColor="White" 
+                                    FontSize="24"
+                                    Clicked="OnBackClicked"/>
 
-                    <!-- Company Logo -->
-                    <Frame Grid.Column="0" 
-                           BackgroundColor="#E8F5E8" 
-                           CornerRadius="40" 
-                           Padding="15" 
-                           HeightRequest="80" 
-                           WidthRequest="80"
-                           HasShadow="False">
-                        <Label Text="🏢" 
-                               FontSize="40" 
-                               HorizontalOptions="Center" 
-                               VerticalOptions="Center"/>
-                    </Frame>
+                            <Label Grid.Column="1" 
+                                   Text="Detalji o kompaniji" 
+                                   TextColor="White" 
+                                   FontSize="18" 
+                                   FontAttributes="Bold" 
+                                   HorizontalOptions="Center" 
+                                   VerticalOptions="Center"/>
 
-                    <!-- Company Name and Info -->
-                    <StackLayout Grid.Column="1" 
-                                 Spacing="5" 
-                                 Margin="15,0,0,0" 
-                                 VerticalOptions="Center">
-                        <Label x:Name="CompanyNameLabel" 
-                               Text="Naziv kompanije" 
-                               FontSize="20" 
-                               FontAttributes="Bold" 
-                               TextColor="#1B5E20"/>
-                        <Label Text="IT kompanija" 
-                               FontSize="14" 
-                               TextColor="Gray"/>
-                        <StackLayout Orientation="Horizontal" Spacing="5">
-                            <Label Text="📍" FontSize="12"/>
-                            <Label Text="Sarajevo, BiH" 
-                                   FontSize="12" 
-                                   TextColor="Gray"/>
+                            <Button Grid.Column="2" 
+                                    Text="⋮" 
+                                    BackgroundColor="Transparent" 
+                                    TextColor="White" 
+                                    FontSize="24"
+                                    Clicked="OnMenuClicked"/>
+                        </Grid>
+                    </Grid>
+                </Grid>
+
+                <!-- Company Info Card -->
+                <Frame BackgroundColor="White" 
+                       Margin="20,-50,20,20" 
+                       Padding="20" 
+                       CornerRadius="15" 
+                       HasShadow="True">
+                    <StackLayout Spacing="15">
+
+                        <!-- Company Logo i Basic Info -->
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="80"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="60"/>
+                            </Grid.ColumnDefinitions>
+
+                            <!-- Company Logo with click to change -->
+                            <Frame Grid.Column="0" 
+                                   BackgroundColor="#1B5E20" 
+                                   CornerRadius="15" 
+                                   Padding="15" 
+                                   HeightRequest="80" 
+                                   WidthRequest="80"
+                                   HasShadow="False">
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="OnLogoClicked"/>
+                                </Frame.GestureRecognizers>
+                                <Label x:Name="CompanyLogoLabel" 
+                                       Text="🏢" 
+                                       FontSize="35" 
+                                       TextColor="White"
+                                       HorizontalOptions="Center" 
+                                       VerticalOptions="Center"/>
+                            </Frame>
+
+                            <!-- Company Name and Location -->
+                            <StackLayout Grid.Column="1" 
+                                         Spacing="5" 
+                                         Margin="15,0,0,0" 
+                                         VerticalOptions="Center">
+                                <Label x:Name="CompanyNameLabel" 
+                                       Text="" 
+                                       FontSize="22" 
+                                       FontAttributes="Bold" 
+                                       TextColor="#333"/>
+                                <Label x:Name="LocationLabel"
+                                       Text="" 
+                                       FontSize="14" 
+                                       TextColor="Gray"/>
+                            </StackLayout>
+
+                            <!-- Empty space where rating was -->
+                            <StackLayout Grid.Column="2" 
+                                         HorizontalOptions="Center"
+                                         VerticalOptions="Center">
+                            </StackLayout>
+                        </Grid>
+
+                        <!-- Contact Information -->
+                        <StackLayout Spacing="15" Margin="0,10,0,0">
+
+                            <!-- Phone -->
+                            <StackLayout x:Name="PhoneSection" Orientation="Horizontal" Spacing="15" IsVisible="False">
+                                <Frame BackgroundColor="#E8F5E8" 
+                                       CornerRadius="20" 
+                                       Padding="8" 
+                                       HeightRequest="40" 
+                                       WidthRequest="40"
+                                       HasShadow="False">
+                                    <Label Text="📞" 
+                                           FontSize="16" 
+                                           HorizontalOptions="Center" 
+                                           VerticalOptions="Center"/>
+                                </Frame>
+                                <StackLayout VerticalOptions="Center">
+                                    <Label Text="Telefon" FontSize="12" TextColor="Gray"/>
+                                    <Label x:Name="PhoneLabel" 
+                                           Text="" 
+                                           FontSize="16" 
+                                           FontAttributes="Bold"
+                                           TextColor="#333"/>
+                                </StackLayout>
+                            </StackLayout>
+
+                            <!-- Email -->
+                            <StackLayout x:Name="EmailSection" Orientation="Horizontal" Spacing="15" IsVisible="False">
+                                <Frame BackgroundColor="#E8F5E8" 
+                                       CornerRadius="20" 
+                                       Padding="8" 
+                                       HeightRequest="40" 
+                                       WidthRequest="40"
+                                       HasShadow="False">
+                                    <Label Text="📧" 
+                                           FontSize="16" 
+                                           HorizontalOptions="Center" 
+                                           VerticalOptions="Center"/>
+                                </Frame>
+                                <StackLayout VerticalOptions="Center">
+                                    <Label Text="Email" FontSize="12" TextColor="Gray"/>
+                                    <Label x:Name="EmailLabel" 
+                                           Text="" 
+                                           FontSize="16" 
+                                           FontAttributes="Bold"
+                                           TextColor="#333"/>
+                                </StackLayout>
+                            </StackLayout>
+
+                            <!-- Website -->
+                            <StackLayout x:Name="WebsiteSection" Orientation="Horizontal" Spacing="15" IsVisible="False">
+                                <Frame BackgroundColor="#E8F5E8" 
+                                       CornerRadius="20" 
+                                       Padding="8" 
+                                       HeightRequest="40" 
+                                       WidthRequest="40"
+                                       HasShadow="False">
+                                    <Label Text="🌐" 
+                                           FontSize="16" 
+                                           HorizontalOptions="Center" 
+                                           VerticalOptions="Center"/>
+                                </Frame>
+                                <StackLayout VerticalOptions="Center">
+                                    <Label Text="Website" FontSize="12" TextColor="Gray"/>
+                                    <Label x:Name="WebsiteLabel" 
+                                           Text="" 
+                                           FontSize="16" 
+                                           FontAttributes="Bold"
+                                           TextColor="#1B5E20" 
+                                           TextDecorations="Underline"/>
+                                </StackLayout>
+                            </StackLayout>
                         </StackLayout>
                     </StackLayout>
-                </Grid>
+                </Frame>
+
+                <!-- Company Description -->
+                <Frame x:Name="DescriptionSection" 
+                       BackgroundColor="White" 
+                       Margin="20,0,20,20" 
+                       Padding="20" 
+                       CornerRadius="15" 
+                       HasShadow="True"
+                       IsVisible="False">
+                    <StackLayout>
+                        <Label Text="O kompaniji" 
+                               FontSize="18" 
+                               FontAttributes="Bold" 
+                               TextColor="#333" 
+                               Margin="0,0,0,10"/>
+                        <Label x:Name="DescriptionLabel" 
+                               Text="" 
+                               FontSize="14" 
+                               TextColor="#666" 
+                               LineBreakMode="WordWrap"/>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Action Buttons -->
+                <StackLayout Padding="20" Spacing="15" Margin="0,0,0,80">
+                    <Button Text="UREDI PROFIL KOMPANIJE"
+                            BackgroundColor="#1B5E20"
+                            TextColor="White"
+                            FontSize="16"
+                            FontAttributes="Bold"
+                            HeightRequest="50"
+                            CornerRadius="25"
+                            Clicked="OnEditProfileClicked"/>
+                </StackLayout>
+
+            </StackLayout>
+        </ScrollView>
+
+        <!-- Bottom Navigation - 3 IKONE -->
+        <!-- BOTTOM NAVIGATION BAR -->
+        <Grid Grid.Row="1" 
+      BackgroundColor="White" 
+      HeightRequest="60" 
+      Padding="0,5,0,5">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Početna -->
+            <StackLayout Grid.Column="0" Spacing="2">
+                <StackLayout.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnHomeClicked"/>
+                </StackLayout.GestureRecognizers>
+                <Label Text="🏠" FontSize="20" HorizontalOptions="Center"/>
+                <Label Text="Početna" FontSize="10" TextColor="Gray" HorizontalOptions="Center"/>
             </StackLayout>
 
-            <!-- Stats -->
-            <Grid BackgroundColor="White" Padding="20" Margin="0,1,0,0">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                </Grid.ColumnDefinitions>
-
-                <StackLayout Grid.Column="0" HorizontalOptions="Center">
-                    <Label x:Name="ActiveJobsCountLabel" 
-                           Text="5" 
-                           FontSize="24" 
-                           FontAttributes="Bold" 
-                           TextColor="#1B5E20" 
-                           HorizontalOptions="Center"/>
-                    <Label Text="Aktivni poslovi" 
-                           FontSize="12" 
-                           TextColor="Gray" 
-                           HorizontalOptions="Center"/>
-                </StackLayout>
-
-                <StackLayout Grid.Column="1" HorizontalOptions="Center">
-                    <Label x:Name="TotalApplicationsLabel" 
-                           Text="23" 
-                           FontSize="24" 
-                           FontAttributes="Bold" 
-                           TextColor="#1B5E20" 
-                           HorizontalOptions="Center"/>
-                    <Label Text="Ukupno aplikacija" 
-                           FontSize="12" 
-                           TextColor="Gray" 
-                           HorizontalOptions="Center"/>
-                </StackLayout>
-
-                <StackLayout Grid.Column="2" HorizontalOptions="Center">
-                    <Label Text="50-100" 
-                           FontSize="24" 
-                           FontAttributes="Bold" 
-                           TextColor="#1B5E20" 
-                           HorizontalOptions="Center"/>
-                    <Label Text="Zaposlenih" 
-                           FontSize="12" 
-                           TextColor="Gray" 
-                           HorizontalOptions="Center"/>
-                </StackLayout>
-            </Grid>
-
-            <!-- Contact Information -->
-            <StackLayout BackgroundColor="White" Padding="20" Margin="0,10,0,0">
-                <Label Text="Kontakt informacije" 
-                       FontSize="16" 
-                       FontAttributes="Bold" 
-                       TextColor="#1B5E20" 
-                       Margin="0,0,0,15"/>
-
-                <!-- Email -->
-                <StackLayout Orientation="Horizontal" Spacing="15" Margin="0,5">
-                    <Label Text="📧" FontSize="18"/>
-                    <StackLayout>
-                        <Label Text="Email adresa" FontSize="12" TextColor="Gray"/>
-                        <Label x:Name="EmailLabel" 
-                               Text="info@kompanija.ba" 
-                               FontSize="14" 
-                               TextColor="#333"/>
-                    </StackLayout>
-                </StackLayout>
-
-                <!-- Phone -->
-                <StackLayout Orientation="Horizontal" Spacing="15" Margin="0,15,0,5">
-                    <Label Text="📞" FontSize="18"/>
-                    <StackLayout>
-                        <Label Text="Telefon" FontSize="12" TextColor="Gray"/>
-                        <Label Text="+387 33 123 456" 
-                               FontSize="14" 
-                               TextColor="#333"/>
-                    </StackLayout>
-                </StackLayout>
-
-                <!-- Website -->
-                <StackLayout Orientation="Horizontal" Spacing="15" Margin="0,15,0,5">
-                    <Label Text="🌐" FontSize="18"/>
-                    <StackLayout>
-                        <Label Text="Website" FontSize="12" TextColor="Gray"/>
-                        <Label Text="www.kompanija.ba" 
-                               FontSize="14" 
-                               TextColor="#1B5E20" 
-                               TextDecorations="Underline"/>
-                    </StackLayout>
-                </StackLayout>
+            <!-- Kandidati -->
+            <StackLayout Grid.Column="1" Spacing="2">
+                <StackLayout.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnCandidatesClicked"/>
+                </StackLayout.GestureRecognizers>
+                <Label Text="👥" FontSize="20" HorizontalOptions="Center"/>
+                <Label Text="Kandidati" FontSize="10" TextColor="Gray" HorizontalOptions="Center"/>
             </StackLayout>
 
-            <!-- Action Buttons -->
-            <StackLayout Padding="20" Spacing="15" Margin="0,10,0,20">
-                <Button Text="UREDI PROFIL KOMPANIJE"
-                        BackgroundColor="#1B5E20"
-                        TextColor="White"
-                        FontSize="16"
-                        FontAttributes="Bold"
-                        HeightRequest="50"
-                        CornerRadius="25"
-                        Clicked="OnEditProfileClicked"/>
-
-                <Button Text="POSTAVKE"
-                        BackgroundColor="Transparent"
-                        TextColor="#1B5E20"
-                        FontSize="14"
-                        HeightRequest="45"
-                        BorderColor="#1B5E20"
-                        BorderWidth="1"
-                        CornerRadius="22"
-                        Clicked="OnSettingsClicked"/>
+            <!-- Kompanija -->
+            <StackLayout Grid.Column="2" Spacing="2">
+                <StackLayout.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnCompanyClicked"/>
+                </StackLayout.GestureRecognizers>
+                <Label Text="🏢" FontSize="20" HorizontalOptions="Center"/>
+                <Label Text="Kompanija" FontSize="10" TextColor="Gray" HorizontalOptions="Center"/>
             </StackLayout>
-
-        </StackLayout>
-    </ScrollView>
+        </Grid>
+    </Grid>
 </ContentPage>

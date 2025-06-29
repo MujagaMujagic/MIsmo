@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jAkQVGmv5xU=",
+  "dgSpecHash": "/j/STGd2Ip4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Windows 10\\Desktop\\JobNest\\JobNest\\JobNest\\JobNest.csproj",
+  "projectFilePath": "C:\\Users\\Windows 10\\Desktop\\Job\\MIsmo\\JobNest\\JobNest\\JobNest\\JobNest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Windows 10\\.nuget\\packages\\communitytoolkit.maui\\7.0.1\\communitytoolkit.maui.7.0.1.nupkg.sha512",
     "C:\\Users\\Windows 10\\.nuget\\packages\\communitytoolkit.maui.core\\7.0.1\\communitytoolkit.maui.core.7.0.1.nupkg.sha512",
