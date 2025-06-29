@@ -3,39 +3,33 @@
              xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              NavigationPage.HasNavigationBar="False"
-             BackgroundColor="#1B5E20">
+             BackgroundColor="White">
 
-    <StackLayout VerticalOptions="CenterAndExpand" 
+    <StackLayout VerticalOptions="CenterAndExpand"
                  HorizontalOptions="CenterAndExpand"
-                 Spacing="30">
+                 Spacing="30"
+                 Padding="40">
 
-        <!-- Logo Container -->
-        <StackLayout HorizontalOptions="Center" Spacing="20">
-            <Frame BackgroundColor="White" 
-                   CornerRadius="50"
-                   WidthRequest="100"
-                   HeightRequest="100"
-                   HorizontalOptions="Center">
-                <Label Text="🚀" 
-                       FontSize="50"
-                       HorizontalOptions="Center"
-                       VerticalOptions="Center"/>
-            </Frame>
-        </StackLayout>
+        <!-- Slika -->
+        <Image Source="briefcase_chart.png"
+               WidthRequest="200"
+               HeightRequest="200"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"/>
 
-        <!-- Text -->
-        <StackLayout Spacing="10" HorizontalOptions="Center">
-            <Label Text="CLIMB HIGHER WITH"
-                   FontSize="18"
-                   TextColor="White"
-                   HorizontalOptions="Center"/>
+        <!-- Naslov -->
+        <Label Text="Pronađi svoj posao iz snova"
+               FontSize="24"
+               FontAttributes="Bold"
+               TextColor="Black"
+               HorizontalOptions="Center"
+               HorizontalTextAlignment="Center"/>
 
-            <Label Text="JobNest app"
-                   FontSize="32"
-                   FontAttributes="Bold"
-                   TextColor="White"
-                   HorizontalOptions="Center"/>
-        </StackLayout>
-
+        <!-- Podnaslov -->
+        <Label Text="Prava prilika je samo korak daleko."
+               FontSize="16"
+               TextColor="Gray"
+               HorizontalOptions="Center"
+               HorizontalTextAlignment="Center"/>
     </StackLayout>
 </ContentPage>

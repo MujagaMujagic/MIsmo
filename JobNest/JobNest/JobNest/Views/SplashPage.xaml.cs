@@ -13,7 +13,7 @@ public partial class SplashPage : ContentPage
         try
         {
             // Wait 2 seconds for splash effect
-            await Task.Delay(2000);
+            await Task.Delay(5000);
 
             // Navigate to onboarding page
             await Navigation.PushAsync(new OnboardingPage());

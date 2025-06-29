@@ -30,7 +30,7 @@ public partial class LoginPage : ContentPage
     private void SetupUI(UserRole userRole)
     {
         _selectedRole = userRole;
-        RoleLabel.Text = _selectedRole == UserRole.Candidate ? "Kandidat" : "Kompanija";
+        Title = _selectedRole == UserRole.Candidate ? "Kandidat" : "Kompanija";
     }
 
     private void OnShowPasswordClicked(object sender, EventArgs e)

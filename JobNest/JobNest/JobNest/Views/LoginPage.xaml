@@ -3,104 +3,99 @@
              xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              NavigationPage.HasNavigationBar="True"
-             Title="Prijava">
+             BackgroundColor="White">
 
-    <ScrollView>
-        <StackLayout Padding="40" Spacing="25">
+    <Grid RowDefinitions="Auto,Auto,*">
+        <ScrollView Grid.Row="0">
+            <StackLayout Padding="30" Spacing="28">
 
-            <!-- Header -->
-            <StackLayout Spacing="10" Margin="0,20,0,0">
-                <Label x:Name="RoleLabel"
-                       Text="Kandidat" 
-                       FontSize="24"
-                       FontAttributes="Bold"
-                       TextColor="#1B5E20"
-                       HorizontalOptions="Start"/>
+                <!-- Naslov stranice -->
+                <StackLayout Spacing="5" Margin="0,0,0,10">
+                    <Label Text="Prijavi se"
+                           FontSize="28"
+                           FontAttributes="Bold"
+                           TextColor="#06402B"/>
 
-                <Label Text="Prijavi se"
-                       FontSize="32"
-                       FontAttributes="Bold"
-                       TextColor="Black"
-                       HorizontalOptions="Start"/>
+                    <Label Text="Molimo prijavite se na svoj registrovani nalog"
+                           FontSize="14"
+                           TextColor="Black"/>
+                </StackLayout>
 
-                <Label Text="Molimo prijavite se na svoj registrovani nalog"
-                       FontSize="14"
-                       TextColor="Gray"
-                       HorizontalOptions="Start"/>
-            </StackLayout>
-
-            <!-- Email Input -->
-            <StackLayout Spacing="8">
-                <Entry x:Name="EmailEntry"
-                       Placeholder="you@growmore.com"
-                       FontSize="16"
-                       BackgroundColor="White"
-                       TextColor="Black"
-                       PlaceholderColor="Gray"/>
-                <BoxView HeightRequest="1" BackgroundColor="LightGray"/>
-            </StackLayout>
-
-            <!-- Password Input -->
-            <StackLayout Spacing="8">
-                <Grid ColumnDefinitions="*,Auto">
-                    <Entry x:Name="PasswordEntry"
-                           Grid.Column="0"
-                           Placeholder="Password"
-                           IsPassword="True"
+                <!-- Email Entry -->
+                <Frame CornerRadius="25" Padding="0" HasShadow="False" BorderColor="#CCCCCC">
+                    <Entry x:Name="EmailEntry"
+                           Placeholder="you@growmore.com"
                            FontSize="16"
-                           BackgroundColor="White"
                            TextColor="Black"
-                           PlaceholderColor="Gray"/>
+                           BackgroundColor="Transparent"
+                           Margin="15,0"/>
+                </Frame>
+
+                <!-- Password Entry -->
+                <Grid>
+                    <Frame CornerRadius="25" Padding="0" HasShadow="False" BorderColor="#CCCCCC">
+                        <Entry x:Name="PasswordEntry"
+                               Placeholder="Password"
+                               IsPassword="True"
+                               FontSize="16"
+                               TextColor="Black"
+                               BackgroundColor="Transparent"
+                               Margin="15,0"/>
+                    </Frame>
                     <Button x:Name="ShowPasswordButton"
-                            Grid.Column="1"
                             Text="👁"
                             BackgroundColor="Transparent"
-                            TextColor="Gray"
-                            FontSize="18"
+                            FontSize="16"
+                            HorizontalOptions="End"
+                            VerticalOptions="Center"
+                            Margin="0,0,15,0"
                             Clicked="OnShowPasswordClicked"/>
                 </Grid>
-                <BoxView HeightRequest="1" BackgroundColor="LightGray"/>
-            </StackLayout>
 
-            <!-- Login Button -->
-            <Button Text="PRIJAVI SE"
-                    BackgroundColor="#1B5E20"
+                <!-- Reset lozinke -->
+                <StackLayout Orientation="Horizontal"
+                             HorizontalOptions="Center"
+                             Spacing="5"
+                             Margin="0,10,0,0">
+                    <Label Text="Zaboravili ste lozinku?"
+                           FontSize="14"
+                           TextColor="Gray"/>
+                    <Label Text="Resetuj ovdje!"
+                           FontSize="14"
+                           TextColor="#06402B"
+                           TextDecorations="Underline">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnResetPasswordClicked"/>
+                        </Label.GestureRecognizers>
+                    </Label>
+                </StackLayout>
+
+                <!-- Prijavi se -->
+                <Button Text="PRIJAVI SE"
+                        BackgroundColor="#06402B"
+                        TextColor="White"
+                        CornerRadius="25"
+                        HeightRequest="50"
+                        FontSize="16"
+                        FontAttributes="Bold"
+                        Margin="0,20,0,0"
+                        Clicked="OnLoginClicked"/>
+            </StackLayout>
+        </ScrollView>
+
+        <!-- Napravi račun na dnu -->
+        <Grid Grid.Row="2"
+              Padding="30"
+              VerticalOptions="End"
+              BackgroundColor="White">
+            <Button Text="NAPRAVI RAČUN"
+                    BackgroundColor="#06402B"
                     TextColor="White"
                     CornerRadius="25"
                     HeightRequest="50"
                     FontSize="16"
                     FontAttributes="Bold"
-                    Margin="0,20,0,0"
-                    Clicked="OnLoginClicked"/>
-
-            <!-- Links -->
-            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="5" Margin="0,20,0,0">
-                <Label Text="Zaboravili ste lozinku?"
-                       FontSize="14"
-                       TextColor="Gray"/>
-                <Label Text="Resetuj ovdje!"
-                       FontSize="14"
-                       TextColor="#1B5E20"
-                       TextDecorations="Underline">
-                    <Label.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="OnResetPasswordClicked"/>
-                    </Label.GestureRecognizers>
-                </Label>
-            </StackLayout>
-
-            <!-- Register Button -->
-            <Button Text="NAPRAVI RAČUN"
-                    BackgroundColor="Transparent"
-                    TextColor="#1B5E20"
-                    BorderColor="#1B5E20"
-                    BorderWidth="2"
-                    CornerRadius="25"
-                    HeightRequest="50"
-                    FontSize="16"
-                    FontAttributes="Bold"
-                    Margin="0,20,0,0"
                     Clicked="OnRegisterClicked"/>
-
-        </StackLayout>
-    </ScrollView>
+        </Grid>
+    </Grid>
 </ContentPage>
